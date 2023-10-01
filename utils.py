@@ -93,7 +93,7 @@ def reformat_scraped_data(data,month):
     current_time = ''
     structured_rows = []
 
-    for index,row in enumerate(data):
+    for row in data:
         if len(row)==1 or len(row)==5:
             match, day = contains_day_or_month(row[0])
             if match:
