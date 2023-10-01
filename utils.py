@@ -1,3 +1,4 @@
+import os
 import re
 import json
 import pandas as pd
@@ -112,6 +113,7 @@ def reformat_scraped_data(data,month):
                 
 
     df = pd.DataFrame(structured_rows,columns=['date','time','currency','impact','event'])
+    os.makedirs("news",exist_ok=True)
     df.to_csv(f"news/{month}_news.csv",index=False)
 
     return df
