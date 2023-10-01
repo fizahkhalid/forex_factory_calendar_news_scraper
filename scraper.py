@@ -1,72 +1,23 @@
-# try:
-#     from selenium import webdriver
-#     from selenium.webdriver.common.by import By
-# except:
-#     from selenium import webdriver
-#     from selenium.webdriver.common.by import By
-    
-# try:
-#     driver = webdriver.Chrome()
-
-# except:
-#     print ("AF: No Chrome webdriver installed")
-#     driver = webdriver.Chrome(ChromeDriverManager().install())
-    
-# from webdriver_manager.chrome import ChromeDriverManager
-# import pandas as pd
-# import json
-# import time
-# from utils import *
-
-# driver.get("https://www.forexfactory.com/calendar?month=this")
-
-# month = "sept"
-# table = driver.find_element(By.CLASS_NAME, "calendar__table")
-
-# data = []
-# for row in table.find_elements(By.TAG_NAME,"tr"):
-#     row_data = []
-#     for element in row.find_elements(By.TAG_NAME,"td"):
-#         class_name = element.get_attribute('class')
-#         if class_name in allowed_classes:
-#             if element.text:
-#                 row_data.append(element.text)
-#             elif "calendar__impact" in class_name:
-#                 impact_elements = element.find_elements(By.TAG_NAME,"span")
-#                 for impact in impact_elements:
-#                     impact_class = impact.get_attribute("class")
-#                     color = color_codes[impact_class]
-#                 if color:
-#                     row_data.append(color)
-#                 else:
-#                     row_data.append("impact")
-
-#     if len(row_data):
-#         data.append(row_data)
-
-
 try:
     from selenium import webdriver
     from selenium.webdriver.common.by import By
-except:
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    
-try:
     driver = webdriver.Chrome()
 except:
     print ("AF: No Chrome webdriver installed")
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
-from webdriver_manager.chrome import ChromeDriverManager
-import pandas as pd
-import json
 import time
-from utils import *
+import json
+import pandas as pd
+from datetime import datetime
+from config import ALLOWED_ELEMENT_TYPES,ICON_COLOR_MAP
+from utils import reformat_scraped_data
+from webdriver_manager.chrome import ChromeDriverManager
 
 driver.get("https://www.forexfactory.com/calendar?month=this")
 
-month = "September"
+month =  datetime.now().strftime("%B")
+
 table = driver.find_element(By.CLASS_NAME, "calendar__table")
 
 data = []
@@ -94,14 +45,14 @@ for row in table.find_elements(By.TAG_NAME, "tr"):
     row_data = []
     for element in row.find_elements(By.TAG_NAME, "td"):
         class_name = element.get_attribute('class')
-        if class_name in allowed_classes:
+        if class_name in ALLOWED_ELEMENT_TYPES:
             if element.text:
                 row_data.append(element.text)
             elif "calendar__impact" in class_name:
                 impact_elements = element.find_elements(By.TAG_NAME, "span")
                 for impact in impact_elements:
                     impact_class = impact.get_attribute("class")
-                    color = color_codes[impact_class]
+                    color = ICON_COLOR_MAP[impact_class]
                 if color:
                     row_data.append(color)
                 else:
