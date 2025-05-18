@@ -7,12 +7,9 @@ except:
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
 import time
-import json
-import pandas as pd
 from datetime import datetime
 from config import ALLOWED_ELEMENT_TYPES,ICON_COLOR_MAP
 from utils import reformat_scraped_data
-from webdriver_manager.chrome import ChromeDriverManager
 
 driver.get("https://www.forexfactory.com/calendar?month=this")
 
@@ -57,6 +54,8 @@ for row in table.find_elements(By.TAG_NAME, "tr"):
                     row_data.append(color)
                 else:
                     row_data.append("impact")
+            else:
+                row_data.append('-')
 
     if len(row_data):
         data.append(row_data)

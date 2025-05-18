@@ -6,13 +6,14 @@ ALLOWED_ELEMENT_TYPES = {
     "calendar__cell calendar__time": "time",
     "calendar__cell calendar__currency": "currency",
     "calendar__cell calendar__impact": "impact",
-    "calendar__cell calendar__event event": "event"
+    "calendar__cell calendar__event event": "event",
+    "calendar__cell calendar__actual": "actual",
+    "calendar__cell calendar__forecast": "forecast",
+    "calendar__cell calendar__previous": "previous",
 }
 
 EXCLUDED_ELEMENT_TYPES = [
-    "calendar__cell calendar__forecast",
-    "calendar__cell calendar__graph",
-    "calendar__cell calendar__previous"
+    "calendar__cell calendar__graph"
 ]
 
 ICON_COLOR_MAP = {
