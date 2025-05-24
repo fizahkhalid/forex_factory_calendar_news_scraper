@@ -7,13 +7,18 @@ except:
     driver = webdriver.Chrome(ChromeDriverManager().install())
 
 import time
-from datetime import datetime
+import argparse
 from config import ALLOWED_ELEMENT_TYPES,ICON_COLOR_MAP
 from utils import reformat_scraped_data
 
-driver.get("https://www.forexfactory.com/calendar?month=this")
 
-month =  datetime.now().strftime("%B")
+# Parse date argument
+parser = argparse.ArgumentParser()
+parser.add_argument('--date', type=str, default='this', help='Date to scrape (e.g., "may.2025")')
+args = parser.parse_args()
+date_arg = args.date.lower()
+
+driver.get("https://www.forexfactory.com/calendar?month=" + date_arg)
 
 table = driver.find_element(By.CLASS_NAME, "calendar__table")
 
@@ -23,16 +28,16 @@ previous_row_count = 0
 while True:
     # Record the current scroll position
     before_scroll = driver.execute_script("return window.pageYOffset;")
-    
+
     # Scroll down a fixed amount
     driver.execute_script("window.scrollTo(0, window.pageYOffset + 500);")
-    
+
     # Wait for a short moment to allow content to load
     time.sleep(2)
-    
+
     # Record the new scroll position
     after_scroll = driver.execute_script("return window.pageYOffset;")
-    
+
     # If the scroll position hasn't changed, we've reached the end of the page
     if before_scroll == after_scroll:
         break
@@ -60,4 +65,4 @@ for row in table.find_elements(By.TAG_NAME, "tr"):
     if len(row_data):
         data.append(row_data)
 
-reformat_scraped_data(data,month)
+reformat_scraped_data(data,date_arg)
