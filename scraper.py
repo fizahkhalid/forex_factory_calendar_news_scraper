@@ -50,21 +50,26 @@ def scrape_calendar_data(table):
     return data
 
 
+def scrape_news(mode="day", date_str="may25.2025"):
+    driver = init_driver()
+    try:
+        url = f"https://www.forexfactory.com/calendar?{mode}={date_str.lower()}"
+        driver.get(url)
+        scroll_to_bottom(driver)
+        table = driver.find_element(By.CLASS_NAME, "calendar__table")
+        return scrape_calendar_data(table)
+    finally:
+        driver.quit()
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--date', type=str, default='this', help='Date to scrape (e.g., "may.2025" or "may27.2025")')
     parser.add_argument('--mode', type=str, choices=['month', 'day'], default='month',
                         help='Mode to scrape: "month" or "day"')
+
     args = parser.parse_args()
-
-    driver = init_driver()
-    url = f"https://www.forexfactory.com/calendar?{args.mode}={args.date.lower()}"
-    driver.get(url)
-
-    scroll_to_bottom(driver)
-    table = driver.find_element(By.CLASS_NAME, "calendar__table")
-    data = scrape_calendar_data(table)
-
+    data = scrape_news(args.mode, args.date.lower())
     reformat_scraped_data(data, args.date.lower())
 
 

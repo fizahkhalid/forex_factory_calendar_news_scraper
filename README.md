@@ -1,39 +1,154 @@
-# Forex Factory News Event Scraper
-This project is a Python-based web scraper designed to retrieve news events for the current month from Forex Factory. It utilizes the Selenium library to automate the process of collecting data from the Forex Factory page. Here, I provide a brief overview of the project's structure and how to use it.
+# 📈 Forex Factory News Event Scraper
 
-## Project Structure
-The project consists of several Python files and a configuration file:
+A modular and powerful Python scraper for retrieving **Forex Factory news events**! 🚀 Built with **Selenium**, this project includes:
 
-***scraper.py***: This is the main script responsible for scraping data from the Forex Factory calendar page. It uses Selenium to interact with the website, scroll through the page to load all events, and extract relevant data.
+- 🔄 A background job that scrapes daily news every 5 minutes
+- 🧩 Modular design (separates scraping logic for reusability)
+- 🌐 Optional Flask API to serve scraped news (as a side feature)
 
-***utils.py***: This file contains utility functions for reading JSON data and processing text to extract relevant information from the scraped data.
+---
 
-***config.py***: Here, you can configure constants related to allowed HTML element types, excluded element types, impact color mapping, allowed currency codes, and allowed impact colors. These configurations help filter and categorize the scraped data.
+## 🗂 Project Structure
 
-## How to Use
-Follow these steps to use the Forex Factory News Event Scraper:
-Ensure you have Python installed on your system.
-Install the necessary Python libraries by running the following command:
+```
+├── scraper.py          # Contains reusable scraping logic
+├── api_server.py       # Runs optional Flask API + background job
+├── config.py           # Configs for filtering and impact mappings
+├── utils.py            # Utility functions for formatting data
+├── daily_news.json     # Output file updated every 5 minutes
+├── requirements.txt    # Dependencies
+└── README.md           # This guide 📘
+```
 
-`python3 -m pip install -r requirements.txt`
+---
 
-## Webdriver Installation:
-The script uses the Chrome WebDriver to interact with the website. Make sure you have Google Chrome installed.
-If you don't have the Chrome WebDriver installed, the script will attempt to install it using webdriver_manager. However, it's recommended to install it manually for better control.
+## 🧰 Installation & Setup
 
-## Running the Scraper:
-Execute the scraper.py script to initiate the scraping process, using the command:
+✅ Make sure Python 3 is installed, then:
 
-`python3 scraper.py`
+```bash
+python3 -m pip install -r requirements.txt
+```
 
-It will launch a Chrome browser, navigate to the Forex Factory calendar page for the current month, and collect data. The scraped data will be reformatted and saved as a CSV file in the "news" directory with the filename in the format "MONTH_news.csv," where "MONTH" is the current month's name.
+---
 
+## 📅 How to Retrieve Data
 
-### Notes
-This scraper is designed for educational and informational purposes. Ensure you comply with the terms of use and policies of Forex Factory when using this tool. Keep in mind that web scraping may be subject to legal and ethical considerations. 
-Always respect the website's terms of service and robots.txt file.
-It's a good practice to schedule the scraper to run periodically if you need updated data regularly.
+### 🔹 Option 1: Manual Scraping with CLI
 
-**Disclaimer**: The accuracy and functionality of this scraper may change over time due to updates on the Forex Factory website. Be prepared to make adjustments if necessary.
+Use the `scraper.py` to scrape data manually:
 
-**Please use this tool responsibly and in accordance with applicable laws and regulations.**
+- **By Day** (to scrape a specific day):
+```bash
+python3 scraper.py --mode day --date may25.2025
+```
+Loads: `https://www.forexfactory.com/calendar?day=may25.2025`
+
+- **By Month** (to scrape a full month):
+```bash
+python3 scraper.py --mode month --date may.2025
+```
+Loads: `https://www.forexfactory.com/calendar?month=may.2025`
+
+This approach runs the scraper and saves formatted data manually.
+
+### 🔹 Option 2: Optional API with Auto-Updating Background Job
+
+If you prefer an always-up-to-date source:
+- A background thread scrapes today's news every 5 minutes
+- The latest result is saved to `daily_news.json`
+- A Flask API provides access to that data
+
+To run the API server:
+```bash
+python3 api_server.py
+```
+
+Access the news:
+```
+GET http://localhost:5000/news
+```
+
+Returns:
+```json
+{
+  "data": [
+    [
+      "Tue\nMay 27",
+      "1:01am",
+      "GBP",
+      "yellow",
+      "BRC Shop Price Index y/y",
+      "-",
+      "0.0%",
+      "-0.1%"
+    ],
+    [
+      "1:50am",
+      "JPY",
+      "yellow",
+      "SPPI y/y",
+      "-",
+      "3.0%",
+      "3.1%"
+    ],
+    [
+      "7:00am",
+      "JPY",
+      "yellow",
+      "BOJ Core CPI y/y",
+      "-",
+      "2.3%",
+      "2.2%"
+    ],
+    [
+      "8:00am",
+      "CHF",
+      "yellow",
+      "Trade Balance",
+      "-",
+      "5.55B",
+      "6.35B"
+    ],
+    [
+      "6:20pm",
+      "CHF",
+      "orange",
+      "SNB Chairman Schlegel Speaks",
+      "-",
+      "-",
+      "-"
+    ]
+  ],
+  "date": "may27.2025"
+}
+```
+
+This feature is optional and intended for developers who want to expose the data over HTTP.
+
+---
+
+## ⚙️ Chrome WebDriver
+
+This project uses **`webdriver_manager`**, so you *don't need to install ChromeDriver manually*. If it’s missing, it auto-installs! 🛠️
+
+Ensure you have Google Chrome installed.
+
+---
+
+## ⚠️ Notes & Legal
+
+- 🧠 Educational & informational use only
+- ⚖️ Respect [Forex Factory's Terms](https://www.forexfactory.com/)
+- 📉 Site changes may break scraping – be ready to adapt
+
+> **Disclaimer**: Use responsibly. Comply with laws, terms of service, and robots.txt.
+
+---
+
+## 🎉 That’s It!
+You now have a modular Forex calendar scraper that supports both **manual and automated** usage. Happy coding — and good luck trading! 💹
+
+---
+
+Made with ❤️ and Python 🐍
