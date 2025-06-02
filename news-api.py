@@ -13,11 +13,14 @@ app = Flask(__name__)
 
 def scrape_and_save_daily_news():
     while True:
+        print("Scraper thread active...")
         today = datetime.now().strftime("%b%d.%Y").lower()
         try:
+            print("Fetching news for date_str =", today)
             data = scrape_news(mode="day", date_str=today)
             with open(DATA_FILE, "w") as f:
                 json.dump({"date": today, "data": data}, f, indent=2)
+                print("Data written to disk.")
         except Exception as e:
             print(f"Scrape error: {e}")
         time.sleep(SCRAPE_INTERVAL)
@@ -33,5 +36,6 @@ def get_daily_news():
 
 
 if __name__ == "__main__":
+    print("Starting background scraper thread...")
     threading.Thread(target=scrape_and_save_daily_news, daemon=True).start()
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=6000, debug=False, use_reloader=False)
