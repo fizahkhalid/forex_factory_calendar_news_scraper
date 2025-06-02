@@ -66,7 +66,7 @@ python3 api_server.py
 
 Access the news:
 ```
-GET http://localhost:5000/news
+GET http://localhost:6000/news
 ```
 
 Returns:
