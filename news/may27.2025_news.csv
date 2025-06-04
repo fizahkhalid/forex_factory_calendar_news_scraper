@@ -1,17 +1,24 @@
 date,time,currency,impact,event,actual,forecast,previous
-May 27,1:01am,GBP,yellow,BRC Shop Price Index y/y,-,0.0%,-0.1%
-May 27,1:50am,JPY,yellow,SPPI y/y,-,3.0%,3.1%
-May 27,7:00am,JPY,yellow,BOJ Core CPI y/y,-,2.3%,2.2%
-May 27,8:00am,CHF,yellow,Trade Balance,-,5.55B,6.35B
-May 27,8:00am,EUR,yellow,German GfK Consumer Climate,-,-19.9,-20.6
-May 27,8:45am,EUR,yellow,French Prelim CPI m/m,-,0.1%,0.6%
-May 27,10:00am,AUD,yellow,RBA Deputy Gov Hauser Speaks,-,-,-
-May 27,10:00am,USD,yellow,FOMC Member Kashkari Speaks,-,-,-
-May 27,12:00pm,GBP,yellow,CBI Realized Sales,-,-14,-8
-May 27,2:30pm,USD,orange,Core Durable Goods Orders m/m,-,-0.1%,-0.4%
-May 27,2:30pm,USD,orange,Durable Goods Orders m/m,-,-7.9%,7.5%
-May 27,3:00pm,USD,yellow,HPI m/m,-,0.1%,0.1%
-May 27,3:00pm,USD,yellow,S&P/CS Composite-20 HPI y/y,-,4.5%,4.5%
-May 27,4:00pm,USD,orange,CB Consumer Confidence,-,87.1,86.0
-May 27,6:00pm,EUR,yellow,German Buba President Nagel Speaks,-,-,-
-May 27,6:20pm,CHF,orange,SNB Chairman Schlegel Speaks,-,-,-
+May 27,12:02am,JPY,yellow,BOJ Core CPI y/y,2.4%,-,-
+May 27,1:00am,CHF,yellow,Trade Balance,6.36B,-,-
+May 27,1:00am,EUR,yellow,German GfK Consumer Climate,-19.9,-,-
+May 27,1:45am,EUR,yellow,French Prelim CPI m/m,-0.1%,-,-
+May 27,3:00am,AUD,yellow,RBA Deputy Gov Hauser Speaks,-,-,-
+May 27,3:00am,USD,yellow,FOMC Member Kashkari Speaks,-,-,-
+May 27,5:00am,GBP,yellow,CBI Realized Sales,-27,-,-
+May 27,7:30am,USD,orange,Core Durable Goods Orders m/m,0.2%,-,-
+May 27,7:30am,USD,orange,Durable Goods Orders m/m,-6.3%,-,-
+May 27,8:00am,USD,yellow,HPI m/m,-0.1%,-,-
+May 27,8:00am,USD,yellow,S&P/CS Composite-20 HPI y/y,4.1%,-,-
+May 27,9:00am,USD,orange,CB Consumer Confidence,98.0,-,-
+May 27,11:00am,EUR,yellow,German Buba President Nagel Speaks,-,-,-
+May 27,11:20am,CHF,orange,SNB Chairman Schlegel Speaks,-,-,-
+May 27,7:00pm,USD,yellow,FOMC Member Williams Speaks,-,-,-
+May 27,8:30pm,AUD,red,CPI y/y,2.4%,-,-
+May 27,8:30pm,AUD,yellow,Construction Work Done q/q,0.0%,-,-
+May 27,9:00pm,NZD,red,Official Cash Rate,3.25%,-,-
+May 27,9:00pm,NZD,red,RBNZ Monetary Policy Statement,-,-,-
+May 27,9:00pm,NZD,red,RBNZ Rate Statement,-,-,-
+May 27,9:10pm,GBP,yellow,MPC Member Lombardelli Speaks,-,-,-
+May 27,9:10pm,USD,orange,FOMC Member Waller Speaks,-,-,-
+May 27,10:00pm,NZD,red,RBNZ Press Conference,-,-,-

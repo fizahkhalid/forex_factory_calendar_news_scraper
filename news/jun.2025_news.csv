@@ -1,0 +1,30 @@
+date,time,currency,impact,event,actual,forecast,previous
+Jun 1,,NZD,gray,Bank Holiday,-,-,-
+Jun 1,6:50pm,JPY,yellow,Capital Spending q/y,6.4%,-,-
+Jun 1,7:00pm,USD,orange,FOMC Member Waller Speaks,-,-,-
+Jun 1,7:00pm,CNY,gray,Bank Holiday,-,-,-
+Jun 1,7:30pm,JPY,yellow,Final Manufacturing PMI,49.4,-,-
+Jun 1,8:00pm,AUD,yellow,MI Inflation Gauge m/m,-0.4%,-,-
+Jun 1,8:30pm,AUD,yellow,ANZ Job Advertisements m/m,-1.2%,-,-
+Jun 4,2:15am,EUR,yellow,Spanish Services PMI,51.3,-,-
+Jun 4,2:45am,EUR,yellow,Italian Services PMI,53.2,-,-
+Jun 4,2:50am,EUR,yellow,French Final Services PMI,48.9,-,-
+Jun 4,2:55am,EUR,yellow,German Final Services PMI,47.1,-,-
+Jun 4,3:00am,EUR,yellow,Final Services PMI,49.7,-,-
+Jun 4,3:30am,GBP,yellow,Final Services PMI,50.9,-,-
+Jun 4,7:15am,USD,red,ADP Non-Farm Employment Change,37K,-,-
+Jun 4,7:30am,CAD,yellow,Labor Productivity q/q,0.2%,-,-
+Jun 4,7:30am,USD,yellow,FOMC Member Bostic Speaks,-,-,-
+Jun 4,7:30am,USD,yellow,FOMC Member Cook Speaks,-,-,-
+Jun 4,8:45am,CAD,red,BOC Rate Statement,-,-,-
+Jun 4,8:45am,CAD,red,Overnight Rate,2.75%,-,-
+Jun 4,8:45am,USD,yellow,Final Services PMI,53.7,-,-
+Jun 4,9:00am,USD,red,ISM Services PMI,49.9,-,-
+Jun 4,9:30am,CAD,red,BOC Press Conference,-,-,-
+Jun 4,9:30am,USD,yellow,Crude Oil Inventories,-4.3M,-,-
+Jun 4,1:00pm,USD,yellow,Beige Book,-,-,-
+Jun 4,6:30pm,JPY,yellow,Average Cash Earnings y/y,-,-,-
+Jun 4,8:00pm,NZD,yellow,ANZ Commodity Prices m/m,-,-,-
+Jun 4,8:30pm,AUD,yellow,Goods Trade Balance,-,-,-
+Jun 4,8:45pm,CNY,yellow,Caixin Services PMI,-,-,-
+Jun 4,10:35pm,JPY,yellow,30-y Bond Auction,-,-,-

@@ -12,10 +12,13 @@ A modular and powerful Python scraper for retrieving **Forex Factory news events
 
 ```
 ├── scraper.py          # Contains reusable scraping logic
-├── api_server.py       # Runs optional Flask API + background job
+├── news-api.py         # Runs optional Flask API + background job
 ├── config.py           # Configs for filtering and impact mappings
 ├── utils.py            # Utility functions for formatting data
-├── daily_news.json     # Output file updated every 5 minutes
+├── data/               # Directory for output data
+│   └── daily_news.json # Output file updated every 5 minutes (if API is running)
+├── news/               # Directory for CSV news files
+│   └── may.2025_news.csv # Example CSV output from manual scraping (name based on --date arg)
 ├── requirements.txt    # Dependencies
 └── README.md           # This guide 📘
 ```
@@ -56,12 +59,12 @@ This approach runs the scraper and saves formatted data manually.
 
 If you prefer an always-up-to-date source:
 - A background thread scrapes today's news every 5 minutes
-- The latest result is saved to `daily_news.json`
+- The latest result is saved to `data/daily_news.json`
 - A Flask API provides access to that data
 
 To run the API server:
 ```bash
-python3 api_server.py
+python3 news-api.py
 ```
 
 Access the news:
