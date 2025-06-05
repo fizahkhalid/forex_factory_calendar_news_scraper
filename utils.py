@@ -79,7 +79,8 @@ def find_pattern_category(text):
         category = "Unknown"
     return True, category, matched_text
     
-def reformat_scraped_data(data,month):
+
+def reformat_scraped_data(data, month):
     """
     Reformat scraped data and save it as a DataFrame and a CSV file.
 
@@ -95,27 +96,45 @@ def reformat_scraped_data(data,month):
     structured_rows = []
 
     for row in data:
-        if len(row)==1 or len(row)==5:
+        # Detect and update the current date
+        if len(row) == 1 or len(row) == 5:
             match, day = contains_day_or_month(row[0])
             if match:
-                current_date = row[0].replace(day,"").replace("\n","")
-        if len(row)==4:
-            current_time = row[0]
+                current_date = row[0].replace(day, "").replace("\n", "").strip()
 
-        if len(row)==5:
-            current_time = row[1]
-        
-        if len(row)>1:
-            event = row[-1]
-            impact = row[-2]
-            currency = row[-3]
-            structured_rows.append([current_date,current_time,currency,impact,event])
-                
+        # Detect and update time
+        if len(row) == 4:
+            current_time = row[0].strip()
 
-    df = pd.DataFrame(structured_rows,columns=['date','time','currency','impact','event'])
-    os.makedirs("news",exist_ok=True)
-    df.to_csv(f"news/{month}_news.csv",index=False)
+        if len(row) == 5:
+            current_time = row[1].strip()
+
+        if len(row) >= 5:
+            # Extract from end of row to handle variable lengths
+            event = row[-1].strip()
+            impact = row[-2].strip()
+            currency = row[-3].strip()
+            forecast = row[-4].strip() if len(row) > 5 else ''
+            previous = row[-5].strip() if len(row) > 6 else ''
+            actual = row[-6].strip() if len(row) > 7 else ''
+
+            structured_rows.append([
+                current_date,
+                current_time,
+                currency,
+                impact,
+                event,
+                actual,
+                forecast,
+                previous
+            ])
+
+    df = pd.DataFrame(structured_rows, columns=[
+        'date', 'time', 'currency', 'impact', 'event',
+        'actual', 'forecast', 'previous'
+    ])
+
+    os.makedirs("news", exist_ok=True)
+    df.to_csv(f"news/{month}_news.csv", index=False)
 
     return df
-
-
