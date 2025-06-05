@@ -1,0 +1,402 @@
+date,time,currency,impact,event,actual,forecast,previous,day
+01/03/2025,6:30am,CNY,red,Manufacturing PMI,50.2,,,Sat
+01/03/2025,,CNY,orange,Non-Manufacturing PMI,50.4,,,Sat
+01/03/2025,8:15am,USD,yellow,FOMC Member Goolsbee Speaks,,,,Sat
+03/03/2025,2:45am,NZD,yellow,Overseas Trade Index q/q,3.1%,,,Mon
+03/03/2025,5:00am,AUD,yellow,MI Inflation Gauge m/m,-0.2%,,,Mon
+03/03/2025,5:30am,AUD,yellow,ANZ Job Advertisements m/m,-1.4%,,,Mon
+03/03/2025,,AUD,yellow,Company Operating Profits q/q,5.9%,,,Mon
+03/03/2025,,JPY,yellow,Final Manufacturing PMI,49.0,,,Mon
+03/03/2025,6:45am,CNY,yellow,Caixin Manufacturing PMI,50.8,,,Mon
+03/03/2025,10:30am,AUD,yellow,Commodity Prices y/y,-8.2%,,,Mon
+03/03/2025,1:15pm,EUR,yellow,Spanish Manufacturing PMI,49.7,,,Mon
+03/03/2025,1:30pm,CHF,yellow,Manufacturing PMI,49.6,,,Mon
+03/03/2025,1:45pm,EUR,yellow,Italian Manufacturing PMI,47.4,,,Mon
+03/03/2025,1:50pm,EUR,yellow,French Final Manufacturing PMI,45.8,,,Mon
+03/03/2025,1:55pm,EUR,yellow,German Final Manufacturing PMI,46.5,,,Mon
+03/03/2025,2:00pm,EUR,yellow,Final Manufacturing PMI,47.6,,,Mon
+03/03/2025,2:30pm,GBP,yellow,Final Manufacturing PMI,46.9,,,Mon
+03/03/2025,,GBP,yellow,M4 Money Supply m/m,1.3%,,,Mon
+03/03/2025,,GBP,yellow,Mortgage Approvals,66K,,,Mon
+03/03/2025,,GBP,yellow,Net Lending to Individuals m/m,5.9B,,,Mon
+03/03/2025,3:00pm,EUR,orange,Core CPI Flash Estimate y/y,2.6%,,,Mon
+03/03/2025,,EUR,orange,CPI Flash Estimate y/y,2.4%,,,Mon
+03/03/2025,7:30pm,CAD,yellow,Manufacturing PMI,47.8,,,Mon
+03/03/2025,7:45pm,USD,orange,Final Manufacturing PMI,52.7,,,Mon
+03/03/2025,8:00pm,USD,red,ISM Manufacturing PMI,50.3,,,Mon
+03/03/2025,,USD,orange,ISM Manufacturing Prices,62.4,,,Mon
+03/03/2025,,USD,yellow,Construction Spending m/m,-0.2%,,,Mon
+03/03/2025,All Day,USD,yellow,Wards Total Vehicle Sales,16.0M,,,Mon
+03/03/2025,10:05pm,USD,yellow,FOMC Member Musalem Speaks,,,,Mon
+04/03/2025,12:39am,USD,orange,President Trump Speaks,,,,Tue
+04/03/2025,2:45am,NZD,yellow,Building Consents m/m,2.6%,,,Tue
+04/03/2025,4:30am,JPY,yellow,Unemployment Rate,2.5%,,,Tue
+04/03/2025,4:50am,JPY,yellow,Capital Spending q/y,-0.2%,,,Tue
+04/03/2025,,JPY,yellow,Monetary Base y/y,-1.8%,,,Tue
+04/03/2025,5:01am,GBP,yellow,BRC Shop Price Index y/y,-0.7%,,,Tue
+04/03/2025,5:30am,AUD,orange,Monetary Policy Meeting Minutes,,,,Tue
+04/03/2025,,AUD,orange,Retail Sales m/m,0.3%,,,Tue
+04/03/2025,,AUD,yellow,Current Account,-12.5B,,,Tue
+04/03/2025,8:35am,JPY,yellow,10-y Bond Auction,1.40|2.7,,,Tue
+04/03/2025,10:00am,JPY,yellow,Consumer Confidence,35.0,,,Tue
+04/03/2025,12:45pm,EUR,yellow,French Gov Budget Balance,-17.3B,,,Tue
+04/03/2025,1:00pm,EUR,yellow,Spanish Unemployment Change,-6.0K,,,Tue
+04/03/2025,2:00pm,EUR,yellow,Italian Monthly Unemployment Rate,6.3%,,,Tue
+04/03/2025,3:00pm,EUR,yellow,Unemployment Rate,6.2%,,,Tue
+04/03/2025,3:03pm,GBP,yellow,30-y Bond Auction,5.10|2.8,,,Tue
+04/03/2025,7:32pm,NZD,yellow,GDT Price Index,-0.5%,,,Tue
+04/03/2025,8:06pm,USD,yellow,RCM/TIPP Economic Optimism,49.8,,,Tue
+05/03/2025,12:20am,USD,yellow,FOMC Member Williams Speaks,,,,Wed
+05/03/2025,2:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+05/03/2025,2:45am,AUD,yellow,RBA Deputy Gov Hauser Speaks,,,,Wed
+05/03/2025,5:00am,NZD,yellow,ANZ Commodity Prices m/m,3.0%,,,Wed
+05/03/2025,5:30am,AUD,red,GDP q/q,0.6%,,,Wed
+05/03/2025,,JPY,orange,BOJ Gov Ueda Speaks,,,,Wed
+05/03/2025,6:45am,CNY,yellow,Caixin Services PMI,51.4,,,Wed
+05/03/2025,7:10am,USD,red,President Trump Speaks,,,,Wed
+05/03/2025,12:30pm,CHF,red,CPI m/m,0.6%,,,Wed
+05/03/2025,12:45pm,EUR,yellow,French Industrial Production m/m,-0.6%,,,Wed
+05/03/2025,1:15pm,EUR,yellow,Spanish Services PMI,56.2,,,Wed
+05/03/2025,1:45pm,EUR,yellow,Italian Services PMI,53.0,,,Wed
+05/03/2025,1:50pm,EUR,yellow,French Final Services PMI,45.3,,,Wed
+05/03/2025,1:55pm,EUR,yellow,German Final Services PMI,51.1,,,Wed
+05/03/2025,2:00pm,EUR,yellow,Final Services PMI,50.6,,,Wed
+05/03/2025,2:30pm,GBP,yellow,Final Services PMI,51.0,,,Wed
+05/03/2025,3:00pm,EUR,yellow,PPI m/m,0.8%,,,Wed
+05/03/2025,,EUR,yellow,Italian Retail Sales m/m,-0.4%,,,Wed
+05/03/2025,6:15pm,USD,red,ADP Non-Farm Employment Change,77K,,,Wed
+05/03/2025,6:30pm,CAD,yellow,Labor Productivity q/q,0.6%,,,Wed
+05/03/2025,7:30pm,GBP,orange,Monetary Policy Report Hearings,,,,Wed
+05/03/2025,7:45pm,USD,orange,Final Services PMI,51.0,,,Wed
+05/03/2025,8:00pm,USD,red,ISM Services PMI,53.5,,,Wed
+05/03/2025,,USD,yellow,Factory Orders m/m,1.7%,,,Wed
+05/03/2025,8:30pm,USD,yellow,Crude Oil Inventories,3.6M,,,Wed
+06/03/2025,12:00am,USD,yellow,Beige Book,,,,Thu
+06/03/2025,1:30am,NZD,orange,RBNZ Gov Orr Speaks,,,,Thu
+06/03/2025,5:30am,AUD,yellow,Building Approvals m/m,6.3%,,,Thu
+06/03/2025,,AUD,yellow,Goods Trade Balance,5.62B,,,Thu
+06/03/2025,8:35am,JPY,yellow,30-y Bond Auction,2.50|3.5,,,Thu
+06/03/2025,11:45am,CHF,yellow,Unemployment Rate,2.7%,,,Thu
+06/03/2025,2:30pm,GBP,orange,Construction PMI,44.6,,,Thu
+06/03/2025,2:40pm,EUR,yellow,Spanish 10-y Bond Auction,3.51|1.9,,,Thu
+06/03/2025,2:59pm,EUR,yellow,French 10-y Bond Auction,3.51|2.7,,,Thu
+06/03/2025,3:00pm,EUR,yellow,Retail Sales m/m,-0.3%,,,Thu
+06/03/2025,All Day,EUR,red,Euro Summit,,,,Thu
+06/03/2025,5:30pm,USD,yellow,Challenger Job Cuts y/y,103.2%,,,Thu
+06/03/2025,6:15pm,EUR,red,Main Refinancing Rate,2.65%,,,Thu
+06/03/2025,,EUR,red,Monetary Policy Statement,,,,Thu
+06/03/2025,6:30pm,CAD,yellow,Trade Balance,4.0B,,,Thu
+06/03/2025,,USD,red,Unemployment Claims,221K,,,Thu
+06/03/2025,,USD,yellow,Revised Nonfarm Productivity q/q,1.5%,,,Thu
+06/03/2025,,USD,yellow,Revised Unit Labor Costs q/q,2.2%,,,Thu
+06/03/2025,,USD,yellow,Trade Balance,-131.4B,,,Thu
+06/03/2025,6:45pm,EUR,red,ECB Press Conference,,,,Thu
+06/03/2025,,USD,yellow,FOMC Member Harker Speaks,,,,Thu
+06/03/2025,8:00pm,CAD,orange,Ivey PMI,55.3,,,Thu
+06/03/2025,,GBP,yellow,MPC Member Mann Speaks,,,,Thu
+06/03/2025,,USD,yellow,Final Wholesale Inventories m/m,0.8%,,,Thu
+06/03/2025,8:30pm,USD,yellow,Natural Gas Storage,-80B,,,Thu
+07/03/2025,12:39am,USD,orange,President Trump Speaks,,,,Fri
+07/03/2025,1:30am,USD,orange,FOMC Member Waller Speaks,,,,Fri
+07/03/2025,5:00am,USD,yellow,FOMC Member Bostic Speaks,,,,Fri
+07/03/2025,8:02am,CNY,yellow,USD-Denominated Trade Balance,170.5B,,,Fri
+07/03/2025,8:03am,CNY,yellow,Trade Balance,1220B,,,Fri
+07/03/2025,12:00pm,EUR,yellow,German Factory Orders m/m,-7.0%,,,Fri
+07/03/2025,,GBP,yellow,Halifax HPI m/m,-0.1%,,,Fri
+07/03/2025,12:45pm,EUR,yellow,French Trade Balance,-6.5B,,,Fri
+07/03/2025,1:00pm,CHF,yellow,Foreign Currency Reserves,735B,,,Fri
+07/03/2025,2:30pm,EUR,orange,ECB President Lagarde Speaks,,,,Fri
+07/03/2025,3:00pm,EUR,yellow,Final Employment Change q/q,0.1%,,,Fri
+07/03/2025,,EUR,yellow,Revised GDP q/q,0.2%,,,Fri
+07/03/2025,6:30pm,CAD,red,Employment Change,1.1K,,,Fri
+07/03/2025,,CAD,red,Unemployment Rate,6.6%,,,Fri
+07/03/2025,,CAD,yellow,Capacity Utilization Rate,79.8%,,,Fri
+07/03/2025,,USD,red,Average Hourly Earnings m/m,0.3%,,,Fri
+07/03/2025,,USD,red,Non-Farm Employment Change,151K,,,Fri
+07/03/2025,,USD,red,Unemployment Rate,4.1%,,,Fri
+07/03/2025,8:15pm,USD,yellow,FOMC Member Bowman Speaks,,,,Fri
+07/03/2025,8:45pm,USD,yellow,FOMC Member Williams Speaks,,,,Fri
+07/03/2025,9:00pm,USD,orange,President Trump Speaks,,,,Fri
+07/03/2025,10:20pm,USD,yellow,FOMC Member Kugler Speaks,,,,Fri
+07/03/2025,10:30pm,USD,red,Fed Chair Powell Speaks,,,,Fri
+07/03/2025,11:00pm,USD,yellow,FOMC Member Kugler Speaks,,,,Fri
+08/03/2025,1:00am,USD,orange,President Trump Speaks,,,,Sat
+08/03/2025,,USD,yellow,Consumer Credit m/m,18.1B,,,Sat
+09/03/2025,6:30am,CNY,orange,CPI y/y,-0.7%,,,Sun
+09/03/2025,,CNY,orange,PPI y/y,-2.2%,,,Sun
+09/03/2025,12:00pm,CAD,gray,Daylight Saving Time Shift,,,,Sun
+09/03/2025,,USD,gray,Daylight Saving Time Shift,,,,Sun
+10/03/2025,4:30am,JPY,yellow,Average Cash Earnings y/y,2.8%,,,Mon
+10/03/2025,4:50am,JPY,yellow,Bank Lending y/y,3.1%,,,Mon
+10/03/2025,,JPY,yellow,Current Account,1.94T,,,Mon
+10/03/2025,10:00am,JPY,yellow,Leading Indicators,108.0%,,,Mon
+10/03/2025,11:00am,JPY,yellow,Economy Watchers Sentiment,45.6,,,Mon
+10/03/2025,12:00pm,EUR,yellow,German Industrial Production m/m,2.0%,,,Mon
+10/03/2025,,EUR,yellow,German Trade Balance,16.0B,,,Mon
+10/03/2025,12:59pm,CHF,yellow,SECO Consumer Climate,-34,,,Mon
+10/03/2025,All Day,EUR,yellow,Eurogroup Meetings,,,,Mon
+10/03/2025,2:30pm,EUR,yellow,Sentix Investor Confidence,-2.9,,,Mon
+11/03/2025,2:45am,NZD,yellow,Manufacturing Sales q/q,2.6%,,,Tue
+11/03/2025,4:01am,AUD,yellow,Westpac Consumer Sentiment,4.0%,,,Tue
+11/03/2025,4:30am,JPY,yellow,Household Spending y/y,0.8%,,,Tue
+11/03/2025,4:50am,JPY,yellow,Final GDP Price Index y/y,2.9%,,,Tue
+11/03/2025,,JPY,yellow,Final GDP q/q,0.6%,,,Tue
+11/03/2025,,JPY,yellow,M2 Money Stock y/y,1.2%,,,Tue
+11/03/2025,5:01am,GBP,yellow,BRC Retail Sales Monitor y/y,0.9%,,,Tue
+11/03/2025,5:30am,AUD,yellow,NAB Business Confidence,-1,,,Tue
+11/03/2025,10:58am,JPY,yellow,Prelim Machine Tool Orders y/y,3.5%,,,Tue
+11/03/2025,All Day,EUR,yellow,ECOFIN Meetings,,,,Tue
+11/03/2025,3:00pm,USD,yellow,NFIB Small Business Index,100.7,,,Tue
+11/03/2025,6:30pm,GBP,yellow,CB Leading Index m/m,-0.3%,,,Tue
+11/03/2025,7:00pm,USD,red,JOLTS Job Openings,7.74M,,,Tue
+12/03/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+12/03/2025,2:00am,USD,orange,President Trump Speaks,,,,Wed
+12/03/2025,4:50am,JPY,yellow,BSI Manufacturing Index,-2.4,,,Wed
+12/03/2025,,JPY,yellow,PPI y/y,4.0%,,,Wed
+12/03/2025,1:45pm,EUR,orange,ECB President Lagarde Speaks,,,,Wed
+12/03/2025,3:09pm,GBP,yellow,10-y Bond Auction,4.68|2.9,,,Wed
+12/03/2025,3:31pm,EUR,yellow,German 10-y Bond Auction,2.92|2.1,,,Wed
+12/03/2025,5:30pm,USD,red,Core CPI m/m,0.2%,,,Wed
+12/03/2025,,USD,red,CPI m/m,0.2%,,,Wed
+12/03/2025,,USD,red,CPI y/y,2.8%,,,Wed
+12/03/2025,6:45pm,CAD,red,BOC Rate Statement,,,,Wed
+12/03/2025,,CAD,red,Overnight Rate,2.75%,,,Wed
+12/03/2025,,EUR,yellow,German Buba President Nagel Speaks,,,,Wed
+12/03/2025,7:30pm,CAD,red,BOC Press Conference,,,,Wed
+12/03/2025,,USD,yellow,Crude Oil Inventories,1.4M,,,Wed
+12/03/2025,10:01pm,USD,yellow,10-y Bond Auction,4.31|2.6,,,Wed
+12/03/2025,11:00pm,USD,yellow,Federal Budget Balance,-307.0B,,,Wed
+13/03/2025,2:45am,NZD,yellow,Visitor Arrivals m/m,1.9%,,,Thu
+13/03/2025,5:00am,AUD,yellow,MI Inflation Expectations,3.6%,,,Thu
+13/03/2025,5:01am,GBP,yellow,RICS House Price Balance,11%,,,Thu
+13/03/2025,12:30pm,CHF,yellow,PPI m/m,0.3%,,,Thu
+13/03/2025,2:00pm,EUR,yellow,Italian Quarterly Unemployment Rate,6.1%,,,Thu
+13/03/2025,3:00pm,EUR,yellow,Industrial Production m/m,0.8%,,,Thu
+13/03/2025,5:30pm,CAD,yellow,Building Permits m/m,-3.2%,,,Thu
+13/03/2025,,USD,red,Core PPI m/m,-0.1%,,,Thu
+13/03/2025,,USD,red,PPI m/m,0.0%,,,Thu
+13/03/2025,,USD,red,Unemployment Claims,220K,,,Thu
+13/03/2025,7:30pm,USD,yellow,Natural Gas Storage,-62B,,,Thu
+13/03/2025,10:01pm,USD,yellow,30-y Bond Auction,4.62|2.4,,,Thu
+13/03/2025,10:30pm,EUR,yellow,German Buba President Nagel Speaks,,,,Thu
+14/03/2025,2:30am,NZD,yellow,BusinessNZ Manufacturing Index,53.9,,,Fri
+14/03/2025,2:45am,NZD,yellow,FPI m/m,-0.5%,,,Fri
+14/03/2025,12:00pm,EUR,yellow,German Final CPI m/m,0.4%,,,Fri
+14/03/2025,,EUR,yellow,German WPI m/m,0.6%,,,Fri
+14/03/2025,,GBP,red,GDP m/m,-0.1%,,,Fri
+14/03/2025,,GBP,yellow,Construction Output m/m,-0.2%,,,Fri
+14/03/2025,,GBP,yellow,Index of Services 3m/3m,0.4%,,,Fri
+14/03/2025,,GBP,yellow,Industrial Production m/m,-0.9%,,,Fri
+14/03/2025,,GBP,yellow,Manufacturing Production m/m,-1.1%,,,Fri
+14/03/2025,12:45pm,EUR,yellow,French Final CPI m/m,0.0%,,,Fri
+14/03/2025,2:00pm,EUR,yellow,Italian Industrial Production m/m,3.2%,,,Fri
+14/03/2025,2:02pm,CNY,yellow,Foreign Direct Investment ytd/y,-20.4%,,,Fri
+14/03/2025,2:03pm,CNY,orange,New Loans,1010B,,,Fri
+14/03/2025,,CNY,yellow,M2 Money Supply y/y,7.0%,,,Fri
+14/03/2025,2:30pm,GBP,yellow,Consumer Inflation Expectations,3.4%,,,Fri
+14/03/2025,3:27pm,GBP,yellow,NIESR GDP Estimate,0.4%,,,Fri
+14/03/2025,5:30pm,CAD,yellow,Manufacturing Sales m/m,1.7%,,,Fri
+14/03/2025,,CAD,yellow,Wholesale Sales m/m,1.2%,,,Fri
+14/03/2025,7:00pm,USD,red,Prelim UoM Consumer Sentiment,57.9,,,Fri
+14/03/2025,,USD,red,Prelim UoM Inflation Expectations,4.9%,,,Fri
+15/03/2025,12:00am,USD,orange,President Trump Speaks,,,,Sat
+17/03/2025,2:30am,NZD,yellow,BusinessNZ Services Index,49.1,,,Mon
+17/03/2025,5:01am,GBP,yellow,Rightmove HPI m/m,1.1%,,,Mon
+17/03/2025,6:30am,CNY,yellow,New Home Prices m/m,-0.14%,,,Mon
+17/03/2025,7:00am,CNY,orange,Industrial Production y/y,5.9%,,,Mon
+17/03/2025,,CNY,orange,Retail Sales y/y,4.0%,,,Mon
+17/03/2025,,CNY,yellow,Fixed Asset Investment ytd/y,4.1%,,,Mon
+17/03/2025,,CNY,yellow,NBS Press Conference,,,,Mon
+17/03/2025,,CNY,yellow,Unemployment Rate,5.4%,,,Mon
+17/03/2025,5:15pm,CAD,yellow,Housing Starts,229K,,,Mon
+17/03/2025,5:30pm,CAD,yellow,Foreign Securities Purchases,7.91B,,,Mon
+17/03/2025,,USD,red,Core Retail Sales m/m,0.3%,,,Mon
+17/03/2025,,USD,red,Retail Sales m/m,0.2%,,,Mon
+17/03/2025,,USD,orange,Empire State Manufacturing Index,-20.0,,,Mon
+17/03/2025,7:00pm,USD,yellow,Business Inventories m/m,0.3%,,,Mon
+17/03/2025,,USD,yellow,NAHB Housing Market Index,39,,,Mon
+18/03/2025,4:15am,AUD,yellow,RBA Assist Gov Hunter Speaks,,,,Tue
+18/03/2025,9:30am,JPY,yellow,Tertiary Industry Activity m/m,-0.3%,,,Tue
+18/03/2025,1:00pm,CHF,yellow,SECO Economic Forecasts,,,,Tue
+18/03/2025,2:00pm,EUR,yellow,Italian Trade Balance,-0.26B,,,Tue
+18/03/2025,3:00pm,EUR,orange,German ZEW Economic Sentiment,51.6,,,Tue
+18/03/2025,,EUR,yellow,Trade Balance,14.0B,,,Tue
+18/03/2025,,EUR,yellow,ZEW Economic Sentiment,39.8,,,Tue
+18/03/2025,5:30pm,CAD,red,CPI m/m,1.1%,,,Tue
+18/03/2025,,CAD,red,Median CPI y/y,2.9%,,,Tue
+18/03/2025,,CAD,red,Trimmed CPI y/y,2.9%,,,Tue
+18/03/2025,,CAD,orange,Common CPI y/y,2.5%,,,Tue
+18/03/2025,,USD,yellow,Building Permits,1.46M,,,Tue
+18/03/2025,,USD,yellow,Housing Starts,1.50M,,,Tue
+18/03/2025,,USD,yellow,Import Prices m/m,0.4%,,,Tue
+18/03/2025,5:32pm,CAD,yellow,Core CPI m/m,0.7%,,,Tue
+18/03/2025,6:15pm,USD,yellow,Capacity Utilization Rate,78.2%,,,Tue
+18/03/2025,,USD,yellow,Industrial Production m/m,0.7%,,,Tue
+18/03/2025,7:30pm,AUD,yellow,CB Leading Index m/m,0.5%,,,Tue
+18/03/2025,8:13pm,NZD,yellow,GDT Price Index,0.0%,,,Tue
+19/03/2025,1:00am,NZD,yellow,Westpac Consumer Sentiment,89.2,,,Wed
+19/03/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+19/03/2025,2:45am,NZD,yellow,Current Account,-7.04B,,,Wed
+19/03/2025,4:30am,AUD,yellow,MI Leading Index m/m,0.1%,,,Wed
+19/03/2025,4:50am,JPY,yellow,Core Machinery Orders m/m,-3.5%,,,Wed
+19/03/2025,,JPY,yellow,Trade Balance,0.18T,,,Wed
+19/03/2025,7:25am,JPY,red,BOJ Policy Rate,<0.50%,,,Wed
+19/03/2025,,JPY,red,Monetary Policy Statement,,,,Wed
+19/03/2025,9:30am,JPY,yellow,Revised Industrial Production m/m,-1.1%,,,Wed
+19/03/2025,11:30am,JPY,red,BOJ Press Conference,,,,Wed
+19/03/2025,3:00pm,EUR,yellow,Final Core CPI y/y,2.6%,,,Wed
+19/03/2025,,EUR,yellow,Final CPI y/y,2.3%,,,Wed
+19/03/2025,3:33pm,EUR,yellow,German 30-y Bond Auction,3.08|1.9,,,Wed
+19/03/2025,7:30pm,USD,yellow,Crude Oil Inventories,1.7M,,,Wed
+19/03/2025,11:00pm,USD,red,Federal Funds Rate,4.50%,,,Wed
+19/03/2025,,USD,red,FOMC Economic Projections,,,,Wed
+19/03/2025,,USD,red,FOMC Statement,,,,Wed
+19/03/2025,11:30pm,USD,red,FOMC Press Conference,,,,Wed
+20/03/2025,1:00am,USD,yellow,TIC Long-Term Purchases,-45.2B,,,Thu
+20/03/2025,2:45am,NZD,red,GDP q/q,0.7%,,,Thu
+20/03/2025,All Day,JPY,gray,Bank Holiday,,,,Thu
+20/03/2025,5:30am,AUD,red,Employment Change,-52.8K,,,Thu
+20/03/2025,,AUD,red,Unemployment Rate,4.1%,,,Thu
+20/03/2025,6:00am,CNY,orange,1-y Loan Prime Rate,3.10%,,,Thu
+20/03/2025,,CNY,orange,5-y Loan Prime Rate,3.60%,,,Thu
+20/03/2025,12:00pm,CHF,yellow,Trade Balance,4.80B,,,Thu
+20/03/2025,,EUR,yellow,German PPI m/m,-0.2%,,,Thu
+20/03/2025,,GBP,red,Claimant Count Change,44.2K,,,Thu
+20/03/2025,,GBP,orange,Average Earnings Index 3m/y,5.8%,,,Thu
+20/03/2025,,GBP,yellow,Unemployment Rate,4.4%,,,Thu
+20/03/2025,1:00pm,EUR,orange,ECB President Lagarde Speaks,,,,Thu
+20/03/2025,1:30pm,CHF,red,SNB Monetary Policy Assessment,,,,Thu
+20/03/2025,,CHF,red,SNB Policy Rate,0.25%,,,Thu
+20/03/2025,2:00pm,CHF,red,SNB Press Conference,,,,Thu
+20/03/2025,,EUR,yellow,ECB Economic Bulletin,,,,Thu
+20/03/2025,2:40pm,EUR,yellow,Spanish 10-y Bond Auction,3.38|1.5,,,Thu
+20/03/2025,4:00pm,EUR,yellow,German Buba Monthly Report,,,,Thu
+20/03/2025,5:00pm,GBP,red,Monetary Policy Summary,,,,Thu
+20/03/2025,,GBP,red,MPC Official Bank Rate Votes,0-1-8,,,Thu
+20/03/2025,,GBP,red,Official Bank Rate,4.50%,,,Thu
+20/03/2025,5:30pm,CAD,yellow,IPPI m/m,0.4%,,,Thu
+20/03/2025,,CAD,yellow,RMPI m/m,0.3%,,,Thu
+20/03/2025,,USD,red,Unemployment Claims,223K,,,Thu
+20/03/2025,,USD,orange,Philly Fed Manufacturing Index,12.5,,,Thu
+20/03/2025,,USD,yellow,Current Account,-304B,,,Thu
+20/03/2025,7:00pm,USD,orange,Existing Home Sales,4.26M,,,Thu
+20/03/2025,,USD,yellow,CB Leading Index m/m,-0.3%,,,Thu
+20/03/2025,7:30pm,USD,yellow,Natural Gas Storage,9B,,,Thu
+20/03/2025,7:40pm,USD,orange,President Trump Speaks,,,,Thu
+20/03/2025,9:50pm,CAD,red,BOC Gov Macklem Speaks,,,,Thu
+21/03/2025,2:45am,NZD,yellow,Trade Balance,510M,,,Fri
+21/03/2025,4:30am,JPY,orange,National Core CPI y/y,3.0%,,,Fri
+21/03/2025,5:01am,GBP,yellow,GfK Consumer Confidence,-19,,,Fri
+21/03/2025,7:00am,NZD,yellow,Credit Card Spending y/y,0.9%,,,Fri
+21/03/2025,12:00pm,GBP,yellow,Public Sector Net Borrowing,10.7B,,,Fri
+21/03/2025,2:00pm,EUR,yellow,Current Account,35.4B,,,Fri
+21/03/2025,4:00pm,GBP,yellow,CBI Industrial Order Expectations,-29,,,Fri
+21/03/2025,5:30pm,CAD,red,Core Retail Sales m/m,0.2%,,,Fri
+21/03/2025,,CAD,red,Retail Sales m/m,-0.6%,,,Fri
+21/03/2025,,CAD,yellow,NHPI m/m,0.1%,,,Fri
+21/03/2025,6:05pm,USD,yellow,FOMC Member Williams Speaks,,,,Fri
+21/03/2025,8:00pm,EUR,yellow,Consumer Confidence,-15,,,Fri
+24/03/2025,3:00am,AUD,yellow,Flash Manufacturing PMI,52.6,,,Mon
+24/03/2025,,AUD,yellow,Flash Services PMI,51.2,,,Mon
+24/03/2025,5:30am,JPY,yellow,Flash Manufacturing PMI,48.3,,,Mon
+24/03/2025,1:15pm,EUR,red,French Flash Manufacturing PMI,48.9,,,Mon
+24/03/2025,,EUR,red,French Flash Services PMI,46.6,,,Mon
+24/03/2025,1:30pm,EUR,red,German Flash Manufacturing PMI,48.3,,,Mon
+24/03/2025,,EUR,red,German Flash Services PMI,50.2,,,Mon
+24/03/2025,2:00pm,EUR,orange,Flash Manufacturing PMI,48.7,,,Mon
+24/03/2025,,EUR,orange,Flash Services PMI,50.4,,,Mon
+24/03/2025,2:30pm,GBP,red,Flash Manufacturing PMI,44.6,,,Mon
+24/03/2025,,GBP,red,Flash Services PMI,53.2,,,Mon
+24/03/2025,6:45pm,USD,red,Flash Manufacturing PMI,49.8,,,Mon
+24/03/2025,,USD,red,Flash Services PMI,54.3,,,Mon
+24/03/2025,10:45pm,USD,yellow,FOMC Member Bostic Speaks,,,,Mon
+24/03/2025,11:00pm,GBP,red,BOE Gov Bailey Speaks,,,,Mon
+24/03/2025,11:30pm,USD,orange,President Trump Speaks,,,,Mon
+25/03/2025,12:10am,USD,yellow,FOMC Member Barr Speaks,,,,Tue
+25/03/2025,4:50am,JPY,yellow,Monetary Policy Meeting Minutes,,,,Tue
+25/03/2025,10:00am,JPY,yellow,BOJ Core CPI y/y,2.2%,,,Tue
+25/03/2025,1:30pm,AUD,yellow,Annual Budget Release,,,,Tue
+25/03/2025,2:00pm,EUR,orange,German ifo Business Climate,86.7,,,Tue
+25/03/2025,4:00pm,GBP,yellow,CBI Realized Sales,-41,,,Tue
+25/03/2025,5:40pm,USD,yellow,FOMC Member Kugler Speaks,,,,Tue
+25/03/2025,6:00pm,USD,orange,S&P/CS Composite-20 HPI y/y,4.7%,,,Tue
+25/03/2025,,USD,yellow,HPI m/m,0.2%,,,Tue
+25/03/2025,6:05pm,USD,yellow,FOMC Member Williams Speaks,,,,Tue
+25/03/2025,6:55pm,EUR,yellow,Belgian NBB Business Climate,-15.1,,,Tue
+25/03/2025,6:59pm,USD,orange,Richmond Manufacturing Index,-4,,,Tue
+25/03/2025,7:00pm,USD,orange,CB Consumer Confidence,92.9,,,Tue
+25/03/2025,,USD,orange,New Home Sales,676K,,,Tue
+25/03/2025,9:00pm,EUR,yellow,German Buba President Nagel Speaks,,,,Tue
+26/03/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+26/03/2025,4:50am,JPY,yellow,SPPI y/y,3.0%,,,Wed
+26/03/2025,5:30am,AUD,red,CPI y/y,2.4%,,,Wed
+26/03/2025,12:00pm,GBP,red,CPI y/y,2.8%,,,Wed
+26/03/2025,,GBP,yellow,Core CPI y/y,3.5%,,,Wed
+26/03/2025,,GBP,yellow,RPI y/y,3.4%,,,Wed
+26/03/2025,2:00pm,CHF,yellow,UBS Economic Expectations,-10.7,,,Wed
+26/03/2025,2:30pm,GBP,yellow,HPI y/y,4.9%,,,Wed
+26/03/2025,5:30pm,GBP,red,Annual Budget Release,,,,Wed
+26/03/2025,,USD,orange,Core Durable Goods Orders m/m,0.7%,,,Wed
+26/03/2025,,USD,orange,Durable Goods Orders m/m,0.9%,,,Wed
+26/03/2025,6:00pm,CNY,yellow,CB Leading Index m/m,-0.3%,,,Wed
+26/03/2025,7:00pm,CHF,yellow,SNB Quarterly Bulletin,,,,Wed
+26/03/2025,,USD,yellow,FOMC Member Kashkari Speaks,,,,Wed
+26/03/2025,7:30pm,USD,yellow,Crude Oil Inventories,-3.3M,,,Wed
+26/03/2025,10:10pm,USD,yellow,FOMC Member Musalem Speaks,,,,Wed
+26/03/2025,10:30pm,CAD,yellow,BOC Summary of Deliberations,,,,Wed
+27/03/2025,1:00am,USD,red,President Trump Speaks,,,,Thu
+27/03/2025,6:00am,USD,orange,President Trump Speaks,,,,Thu
+27/03/2025,2:00pm,EUR,yellow,M3 Money Supply y/y,4.0%,,,Thu
+27/03/2025,,EUR,yellow,Private Loans y/y,1.5%,,,Thu
+27/03/2025,3:00pm,GBP,yellow,MPC Member Dhingra Speaks,,,,Thu
+27/03/2025,5:30pm,USD,red,Final GDP q/q,2.4%,,,Thu
+27/03/2025,,USD,red,Unemployment Claims,224K,,,Thu
+27/03/2025,,USD,orange,Final GDP Price Index q/q,2.3%,,,Thu
+27/03/2025,,USD,yellow,Goods Trade Balance,-147.9B,,,Thu
+27/03/2025,,USD,yellow,Prelim Wholesale Inventories m/m,0.3%,,,Thu
+27/03/2025,7:00pm,USD,orange,Pending Home Sales m/m,2.0%,,,Thu
+27/03/2025,7:30pm,USD,yellow,Natural Gas Storage,37B,,,Thu
+27/03/2025,11:05pm,EUR,yellow,ECB President Lagarde Speaks,,,,Thu
+28/03/2025,1:30am,USD,yellow,FOMC Member Barkin Speaks,,,,Fri
+28/03/2025,4:30am,JPY,orange,Tokyo Core CPI y/y,2.4%,,,Fri
+28/03/2025,4:50am,JPY,yellow,BOJ Summary of Opinions,,,,Fri
+28/03/2025,12:00pm,EUR,yellow,German GfK Consumer Climate,-24.5,,,Fri
+28/03/2025,,GBP,red,Retail Sales m/m,1.0%,,,Fri
+28/03/2025,,GBP,yellow,Current Account,-21.0B,,,Fri
+28/03/2025,,GBP,yellow,Final GDP q/q,0.1%,,,Fri
+28/03/2025,,GBP,yellow,Goods Trade Balance,-17.8B,,,Fri
+28/03/2025,,GBP,yellow,Revised Business Investment q/q,-1.9%,,,Fri
+28/03/2025,12:45pm,EUR,yellow,French Consumer Spending m/m,-0.1%,,,Fri
+28/03/2025,,EUR,yellow,French Prelim CPI m/m,0.2%,,,Fri
+28/03/2025,1:00pm,CHF,yellow,KOF Economic Barometer,103.9,,,Fri
+28/03/2025,,EUR,orange,Spanish Flash CPI y/y,2.3%,,,Fri
+28/03/2025,1:55pm,EUR,yellow,German Unemployment Change,26K,,,Fri
+28/03/2025,3:13pm,EUR,yellow,Italian 10-y Bond Auction,3.83|1.7,,,Fri
+28/03/2025,5:30pm,CAD,red,GDP m/m,0.4%,,,Fri
+28/03/2025,,USD,red,Core PCE Price Index m/m,0.4%,,,Fri
+28/03/2025,,USD,yellow,Personal Income m/m,0.8%,,,Fri
+28/03/2025,,USD,yellow,Personal Spending m/m,0.4%,,,Fri
+28/03/2025,6:00pm,EUR,yellow,German Buba President Nagel Speaks,,,,Fri
+28/03/2025,7:00pm,USD,orange,Revised UoM Consumer Sentiment,57.0,,,Fri
+28/03/2025,,USD,yellow,Revised UoM Inflation Expectations,5.0%,,,Fri
+28/03/2025,9:15pm,USD,yellow,FOMC Member Barr Speaks,,,,Fri
+29/03/2025,12:45am,USD,yellow,FOMC Member Bostic Speaks,,,,Sat
+30/03/2025,6:00am,CHF,gray,Daylight Saving Time Shift,,,,Sun
+30/03/2025,,EUR,gray,Daylight Saving Time Shift,,,,Sun
+30/03/2025,,GBP,gray,Daylight Saving Time Shift,,,,Sun
+31/03/2025,4:50am,JPY,yellow,Prelim Industrial Production m/m,2.5%,,,Mon
+31/03/2025,,JPY,yellow,Retail Sales y/y,1.4%,,,Mon
+31/03/2025,5:00am,AUD,yellow,MI Inflation Gauge m/m,0.7%,,,Mon
+31/03/2025,,NZD,yellow,ANZ Business Confidence,57.5,,,Mon
+31/03/2025,5:30am,AUD,yellow,Private Sector Credit m/m,0.5%,,,Mon
+31/03/2025,6:30am,CNY,red,Manufacturing PMI,50.5,,,Mon
+31/03/2025,,CNY,orange,Non-Manufacturing PMI,50.8,,,Mon
+31/03/2025,10:00am,JPY,yellow,Housing Starts y/y,2.4%,,,Mon
+31/03/2025,11:00am,EUR,yellow,German Import Prices m/m,0.3%,,,Mon
+31/03/2025,,EUR,yellow,German Retail Sales m/m,0.8%,,,Mon
+31/03/2025,All Day,EUR,red,German Prelim CPI m/m,0.3%,,,Mon
+31/03/2025,1:30pm,GBP,yellow,M4 Money Supply m/m,0.2%,,,Mon
+31/03/2025,,GBP,yellow,Mortgage Approvals,65K,,,Mon
+31/03/2025,,GBP,yellow,Net Lending to Individuals m/m,4.6B,,,Mon
+31/03/2025,2:00pm,EUR,yellow,Italian Prelim CPI m/m,0.4%,,,Mon
+31/03/2025,6:45pm,USD,yellow,Chicago PMI,47.6,,,Mon

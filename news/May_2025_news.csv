@@ -1,0 +1,462 @@
+date,time,currency,impact,event,actual,forecast,previous,day
+01/05/2025,5:00am,USD,orange,President Trump Speaks,,,,Thu
+01/05/2025,All Day,CNY,gray,Bank Holiday,,,,Thu
+01/05/2025,5:30am,JPY,yellow,Final Manufacturing PMI,48.7,,,Thu
+01/05/2025,6:30am,AUD,yellow,Goods Trade Balance,6.90B,,,Thu
+01/05/2025,,AUD,yellow,Import Prices q/q,3.3%,,,Thu
+01/05/2025,8:03am,JPY,red,BOJ Outlook Report,,,,Thu
+01/05/2025,,JPY,red,BOJ Policy Rate,<0.50%,,,Thu
+01/05/2025,,JPY,red,Monetary Policy Statement,,,,Thu
+01/05/2025,10:00am,JPY,yellow,Consumer Confidence,31.2,,,Thu
+01/05/2025,All Day,CHF,gray,Bank Holiday,,,,Thu
+01/05/2025,All Day,EUR,gray,French Bank Holiday,,,,Thu
+01/05/2025,All Day,EUR,gray,German Bank Holiday,,,,Thu
+01/05/2025,All Day,EUR,gray,Italian Bank Holiday,,,,Thu
+01/05/2025,11:30am,AUD,yellow,Commodity Prices y/y,-6.1%,,,Thu
+01/05/2025,,CHF,yellow,Retail Sales y/y,2.2%,,,Thu
+01/05/2025,,JPY,red,BOJ Press Conference,,,,Thu
+01/05/2025,1:30pm,GBP,yellow,Final Manufacturing PMI,45.4,,,Thu
+01/05/2025,,GBP,yellow,M4 Money Supply m/m,0.3%,,,Thu
+01/05/2025,,GBP,yellow,Mortgage Approvals,64K,,,Thu
+01/05/2025,1:32pm,GBP,yellow,Net Lending to Individuals m/m,13.8B,,,Thu
+01/05/2025,4:30pm,USD,yellow,Challenger Job Cuts y/y,62.7%,,,Thu
+01/05/2025,5:30pm,USD,red,Unemployment Claims,241K,,,Thu
+01/05/2025,6:30pm,CAD,yellow,Manufacturing PMI,45.3,,,Thu
+01/05/2025,6:45pm,USD,yellow,Final Manufacturing PMI,50.2,,,Thu
+01/05/2025,7:00pm,USD,red,ISM Manufacturing PMI,48.7,,,Thu
+01/05/2025,,USD,orange,ISM Manufacturing Prices,69.8,,,Thu
+01/05/2025,,USD,yellow,Construction Spending m/m,-0.5%,,,Thu
+01/05/2025,All Day,USD,yellow,Wards Total Vehicle Sales,17.3M,,,Thu
+01/05/2025,11:00pm,USD,yellow,Natural Gas Storage,107B,,,Thu
+02/05/2025,3:45am,NZD,yellow,Building Consents m/m,9.6%,,,Fri
+02/05/2025,4:30am,JPY,yellow,Unemployment Rate,2.5%,,,Fri
+02/05/2025,4:50am,JPY,yellow,Monetary Base y/y,-4.8%,,,Fri
+02/05/2025,All Day,CNY,gray,Bank Holiday,,,,Fri
+02/05/2025,6:30am,AUD,orange,Retail Sales m/m,0.3%,,,Fri
+02/05/2025,,AUD,yellow,PPI q/q,0.9%,,,Fri
+02/05/2025,11:45am,EUR,yellow,French Gov Budget Balance,-47.0B,,,Fri
+02/05/2025,12:15pm,EUR,yellow,Spanish Manufacturing PMI,48.1,,,Fri
+02/05/2025,12:30pm,CHF,yellow,Manufacturing PMI,45.8,,,Fri
+02/05/2025,12:45pm,EUR,yellow,Italian Manufacturing PMI,49.3,,,Fri
+02/05/2025,12:50pm,EUR,yellow,French Final Manufacturing PMI,48.7,,,Fri
+02/05/2025,12:55pm,EUR,yellow,German Final Manufacturing PMI,48.4,,,Fri
+02/05/2025,1:00pm,EUR,yellow,Final Manufacturing PMI,49.0,,,Fri
+02/05/2025,,EUR,yellow,Italian Monthly Unemployment Rate,6.0%,,,Fri
+02/05/2025,2:00pm,EUR,orange,Core CPI Flash Estimate y/y,2.7%,,,Fri
+02/05/2025,,EUR,orange,CPI Flash Estimate y/y,2.2%,,,Fri
+02/05/2025,,EUR,yellow,ECB Economic Bulletin,,,,Fri
+02/05/2025,,EUR,yellow,Unemployment Rate,6.2%,,,Fri
+02/05/2025,5:30pm,USD,red,Average Hourly Earnings m/m,0.2%,,,Fri
+02/05/2025,,USD,red,Non-Farm Employment Change,177K,,,Fri
+02/05/2025,,USD,red,Unemployment Rate,4.2%,,,Fri
+02/05/2025,7:00pm,USD,yellow,Factory Orders m/m,4.3%,,,Fri
+03/05/2025,All Day,AUD,red,Parliamentary Elections,,,,Sat
+03/05/2025,All Day,All,orange,OPEC-JMMC Meetings,,,,Sat
+05/05/2025,All Day,JPY,gray,Bank Holiday,,,,Mon
+05/05/2025,6:00am,AUD,yellow,MI Inflation Gauge m/m,0.6%,,,Mon
+05/05/2025,6:30am,AUD,yellow,ANZ Job Advertisements m/m,0.5%,,,Mon
+05/05/2025,11:30am,CHF,red,CPI m/m,0.0%,,,Mon
+05/05/2025,All Day,GBP,gray,Bank Holiday,,,,Mon
+05/05/2025,1:30pm,EUR,yellow,Sentix Investor Confidence,-8.1,,,Mon
+05/05/2025,6:45pm,USD,yellow,Final Services PMI,50.8,,,Mon
+05/05/2025,7:00pm,USD,red,ISM Services PMI,51.6,,,Mon
+06/05/2025,All Day,JPY,gray,Bank Holiday,,,,Tue
+06/05/2025,6:00am,NZD,yellow,ANZ Commodity Prices m/m,0.0%,,,Tue
+06/05/2025,6:30am,AUD,yellow,Building Approvals m/m,-8.8%,,,Tue
+06/05/2025,6:45am,CNY,yellow,Caixin Services PMI,50.7,,,Tue
+06/05/2025,10:45am,CHF,yellow,Unemployment Rate,2.8%,,,Tue
+06/05/2025,11:45am,EUR,yellow,French Industrial Production m/m,0.2%,,,Tue
+06/05/2025,12:00pm,EUR,yellow,Spanish Unemployment Change,-67.4K,,,Tue
+06/05/2025,12:15pm,EUR,yellow,Spanish Services PMI,53.4,,,Tue
+06/05/2025,12:35pm,CHF,orange,SNB Chairman Schlegel Speaks,,,,Tue
+06/05/2025,12:45pm,EUR,yellow,Italian Services PMI,52.9,,,Tue
+06/05/2025,12:50pm,EUR,yellow,French Final Services PMI,47.3,,,Tue
+06/05/2025,12:55pm,EUR,yellow,German Final Services PMI,49.0,,,Tue
+06/05/2025,1:00pm,EUR,yellow,Final Services PMI,50.1,,,Tue
+06/05/2025,1:30pm,GBP,yellow,Final Services PMI,49.0,,,Tue
+06/05/2025,2:00pm,EUR,yellow,PPI m/m,-1.6%,,,Tue
+06/05/2025,5:30pm,CAD,yellow,Trade Balance,-0.5B,,,Tue
+06/05/2025,,USD,yellow,Trade Balance,-140.5B,,,Tue
+06/05/2025,7:00pm,CAD,orange,Ivey PMI,47.9,,,Tue
+06/05/2025,7:06pm,USD,yellow,RCM/TIPP Economic Optimism,47.9,,,Tue
+06/05/2025,8:34pm,NZD,yellow,GDT Price Index,4.6%,,,Tue
+06/05/2025,10:01pm,USD,yellow,10-y Bond Auction,4.34|2.6,,,Tue
+07/05/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+07/05/2025,2:00am,NZD,yellow,RBNZ Financial Stability Report,,,,Wed
+07/05/2025,3:45am,NZD,red,Employment Change q/q,0.1%,,,Wed
+07/05/2025,,NZD,red,Unemployment Rate,5.1%,,,Wed
+07/05/2025,,NZD,yellow,Labor Cost Index q/q,0.4%,,,Wed
+07/05/2025,6:00am,NZD,orange,RBNZ Gov Hawkesby Speaks,,,,Wed
+07/05/2025,11:00am,EUR,yellow,German Factory Orders m/m,3.6%,,,Wed
+07/05/2025,11:45am,EUR,yellow,French Prelim Private Payrolls q/q,0.0%,,,Wed
+07/05/2025,,EUR,yellow,French Trade Balance,-6.2B,,,Wed
+07/05/2025,12:00pm,CHF,yellow,Foreign Currency Reserves,703B,,,Wed
+07/05/2025,1:00pm,EUR,yellow,Italian Retail Sales m/m,-0.5%,,,Wed
+07/05/2025,1:30pm,GBP,orange,Construction PMI,46.6,,,Wed
+07/05/2025,1:57pm,EUR,yellow,French 10-y Bond Auction,3.24|2.8,,,Wed
+07/05/2025,2:00pm,CHF,yellow,Gov Board Member Tschudin Speaks,,,,Wed
+07/05/2025,,EUR,yellow,Retail Sales m/m,-0.1%,,,Wed
+07/05/2025,7:30pm,USD,yellow,Crude Oil Inventories,-2.0M,,,Wed
+07/05/2025,11:00pm,USD,red,Federal Funds Rate,4.50%,,,Wed
+07/05/2025,,USD,red,FOMC Statement,,,,Wed
+07/05/2025,11:30pm,USD,red,FOMC Press Conference,,,,Wed
+08/05/2025,12:00am,USD,yellow,Consumer Credit m/m,10.2B,,,Thu
+08/05/2025,4:01am,GBP,yellow,RICS House Price Balance,-3%,,,Thu
+08/05/2025,4:50am,JPY,yellow,Monetary Policy Meeting Minutes,,,,Thu
+08/05/2025,8:35am,JPY,yellow,10-y Bond Auction,1.27|2.5,,,Thu
+08/05/2025,11:00am,EUR,yellow,German Industrial Production m/m,3.0%,,,Thu
+08/05/2025,,EUR,yellow,German Trade Balance,21.1B,,,Thu
+08/05/2025,,GBP,yellow,Halifax HPI m/m,0.3%,,,Thu
+08/05/2025,All Day,EUR,gray,French Bank Holiday,,,,Thu
+08/05/2025,4:02pm,GBP,red,BOE Monetary Policy Report,,,,Thu
+08/05/2025,,GBP,red,Monetary Policy Summary,,,,Thu
+08/05/2025,,GBP,red,MPC Official Bank Rate Votes,0-7-2,,,Thu
+08/05/2025,,GBP,red,Official Bank Rate,4.25%,,,Thu
+08/05/2025,4:30pm,GBP,red,BOE Gov Bailey Speaks,,,,Thu
+08/05/2025,5:30pm,USD,red,Unemployment Claims,228K,,,Thu
+08/05/2025,,USD,yellow,Prelim Nonfarm Productivity q/q,-0.8%,,,Thu
+08/05/2025,,USD,yellow,Prelim Unit Labor Costs q/q,5.7%,,,Thu
+08/05/2025,7:00pm,CAD,yellow,BOC Financial System Review,,,,Thu
+08/05/2025,,USD,red,President Trump Speaks,,,,Thu
+08/05/2025,,USD,yellow,Final Wholesale Inventories m/m,0.4%,,,Thu
+08/05/2025,7:30pm,USD,yellow,Natural Gas Storage,104B,,,Thu
+08/05/2025,8:00pm,CAD,red,BOC Press Conference,,,,Thu
+08/05/2025,10:01pm,USD,yellow,30-y Bond Auction,4.82|2.3,,,Thu
+09/05/2025,4:30am,JPY,yellow,Average Cash Earnings y/y,2.1%,,,Fri
+09/05/2025,,JPY,yellow,Household Spending y/y,2.1%,,,Fri
+09/05/2025,8:04am,CNY,yellow,Trade Balance,690B,,,Fri
+09/05/2025,8:06am,CNY,yellow,USD-Denominated Trade Balance,96.2B,,,Fri
+09/05/2025,10:00am,JPY,yellow,Leading Indicators,107.7%,,,Fri
+09/05/2025,12:00pm,CHF,yellow,SECO Consumer Climate,-42,,,Fri
+09/05/2025,1:00pm,EUR,yellow,Italian Industrial Production m/m,0.1%,,,Fri
+09/05/2025,1:40pm,GBP,red,BOE Gov Bailey Speaks,,,,Fri
+09/05/2025,2:55pm,USD,yellow,FOMC Member Barr Speaks,,,,Fri
+09/05/2025,3:45pm,USD,yellow,FOMC Member Kugler Speaks,,,,Fri
+09/05/2025,4:15pm,GBP,yellow,MPC Member Pill Speaks,,,,Fri
+09/05/2025,5:30pm,CAD,red,Employment Change,7.4K,,,Fri
+09/05/2025,,CAD,red,Unemployment Rate,6.9%,,,Fri
+09/05/2025,,USD,yellow,FOMC Member Barkin Speaks,,,,Fri
+09/05/2025,,USD,yellow,FOMC Member Williams Speaks,,,,Fri
+09/05/2025,7:00pm,USD,yellow,FOMC Member Goolsbee Speaks,,,,Fri
+09/05/2025,8:30pm,USD,orange,FOMC Member Waller Speaks,,,,Fri
+09/05/2025,,USD,yellow,FOMC Member Williams Speaks,,,,Fri
+10/05/2025,4:45am,USD,yellow,FOMC Member Cook Speaks,,,,Sat
+10/05/2025,,USD,yellow,FOMC Member Hammack Speaks,,,,Sat
+10/05/2025,,USD,yellow,FOMC Member Musalem Speaks,,,,Sat
+10/05/2025,6:30am,CNY,orange,CPI y/y,-0.1%,,,Sat
+10/05/2025,,CNY,orange,PPI y/y,-2.7%,,,Sat
+11/05/2025,11:00pm,USD,yellow,FOMC Member Barkin Speaks,,,,Sun
+12/05/2025,4:50am,JPY,yellow,Bank Lending y/y,2.4%,,,Mon
+12/05/2025,,JPY,yellow,Current Account,2.72T,,,Mon
+12/05/2025,10:00am,JPY,yellow,Economy Watchers Sentiment,42.6,,,Mon
+12/05/2025,1:00pm,GBP,yellow,MPC Member Lombardelli Speaks,,,,Mon
+12/05/2025,All Day,EUR,yellow,Eurogroup Meetings,,,,Mon
+12/05/2025,3:30pm,GBP,yellow,MPC Member Greene Speaks,,,,Mon
+12/05/2025,5:50pm,GBP,yellow,MPC Member Mann Speaks,,,,Mon
+12/05/2025,6:30pm,USD,orange,President Trump Speaks,,,,Mon
+12/05/2025,6:45pm,USD,yellow,Cleveland Fed Inflation Expectations,3.9%,,,Mon
+12/05/2025,7:25pm,USD,yellow,FOMC Member Kugler Speaks,,,,Mon
+12/05/2025,9:00pm,GBP,yellow,MPC Member Taylor Speaks,,,,Mon
+12/05/2025,11:00pm,USD,yellow,Federal Budget Balance,258.4B,,,Mon
+12/05/2025,,USD,yellow,Loan Officer Survey,,,,Mon
+13/05/2025,4:01am,GBP,yellow,BRC Retail Sales Monitor y/y,6.8%,,,Tue
+13/05/2025,4:50am,JPY,yellow,BOJ Summary of Opinions,,,,Tue
+13/05/2025,,JPY,yellow,M2 Money Stock y/y,0.5%,,,Tue
+13/05/2025,5:26am,AUD,yellow,Westpac Consumer Sentiment,2.2%,,,Tue
+13/05/2025,6:30am,AUD,yellow,NAB Business Confidence,-1,,,Tue
+13/05/2025,8:35am,JPY,yellow,30-y Bond Auction,2.94|3.1,,,Tue
+13/05/2025,11:00am,GBP,red,Claimant Count Change,5.2K,,,Tue
+13/05/2025,,GBP,orange,Average Earnings Index 3m/y,5.5%,,,Tue
+13/05/2025,,GBP,yellow,Unemployment Rate,4.5%,,,Tue
+13/05/2025,All Day,EUR,yellow,ECOFIN Meetings,,,,Tue
+13/05/2025,1:45pm,GBP,yellow,MPC Member Pill Speaks,,,,Tue
+13/05/2025,2:00pm,EUR,orange,German ZEW Economic Sentiment,25.2,,,Tue
+13/05/2025,,EUR,yellow,ZEW Economic Sentiment,11.6,,,Tue
+13/05/2025,3:00pm,USD,yellow,NFIB Small Business Index,95.8,,,Tue
+13/05/2025,5:30pm,USD,red,Core CPI m/m,0.2%,,,Tue
+13/05/2025,,USD,red,CPI m/m,0.2%,,,Tue
+13/05/2025,,USD,red,CPI y/y,2.3%,,,Tue
+13/05/2025,6:30pm,GBP,yellow,CB Leading Index m/m,-0.4%,,,Tue
+13/05/2025,7:00pm,USD,yellow,Mortgage Delinquencies,4.04%,,,Tue
+13/05/2025,8:00pm,GBP,red,BOE Gov Bailey Speaks,,,,Tue
+13/05/2025,8:34pm,USD,orange,President Trump Speaks,,,,Tue
+14/05/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+14/05/2025,3:45am,NZD,yellow,Visitor Arrivals m/m,-1.9%,,,Wed
+14/05/2025,4:50am,JPY,yellow,PPI y/y,4.0%,,,Wed
+14/05/2025,6:30am,AUD,red,Wage Price Index q/q,0.9%,,,Wed
+14/05/2025,11:00am,EUR,yellow,German Final CPI m/m,0.4%,,,Wed
+14/05/2025,12:15pm,GBP,yellow,MPC Member Breeden Speaks,,,,Wed
+14/05/2025,1:15pm,EUR,yellow,German Buba President Nagel Speaks,,,,Wed
+14/05/2025,2:02pm,CNY,yellow,M2 Money Supply y/y,8.0%,,,Wed
+14/05/2025,2:03pm,CNY,orange,New Loans,280B,,,Wed
+14/05/2025,,GBP,yellow,10-y Bond Auction,4.67|3.1,,,Wed
+14/05/2025,2:15pm,USD,yellow,FOMC Member Waller Speaks,,,,Wed
+14/05/2025,2:38pm,EUR,yellow,German 30-y Bond Auction,3.12|2.3,,,Wed
+14/05/2025,5:30pm,CAD,yellow,Building Permits m/m,-4.1%,,,Wed
+14/05/2025,6:10pm,USD,yellow,FOMC Member Jefferson Speaks,,,,Wed
+14/05/2025,7:30pm,AUD,yellow,CB Leading Index m/m,-0.4%,,,Wed
+14/05/2025,,USD,yellow,Crude Oil Inventories,3.5M,,,Wed
+15/05/2025,2:40am,USD,yellow,FOMC Member Daly Speaks,,,,Thu
+15/05/2025,3:45am,NZD,yellow,FPI m/m,0.8%,,,Thu
+15/05/2025,6:00am,AUD,yellow,MI Inflation Expectations,4.1%,,,Thu
+15/05/2025,6:30am,AUD,red,Employment Change,89.0K,,,Thu
+15/05/2025,,AUD,red,Unemployment Rate,4.1%,,,Thu
+15/05/2025,10:59am,JPY,yellow,Prelim Machine Tool Orders y/y,7.7%,,,Thu
+15/05/2025,11:00am,EUR,yellow,German WPI m/m,-0.1%,,,Thu
+15/05/2025,,GBP,red,GDP m/m,0.2%,,,Thu
+15/05/2025,,GBP,orange,Prelim GDP q/q,0.7%,,,Thu
+15/05/2025,,GBP,yellow,Construction Output m/m,0.5%,,,Thu
+15/05/2025,,GBP,yellow,Goods Trade Balance,-19.9B,,,Thu
+15/05/2025,,GBP,yellow,Index of Services 3m/3m,0.7%,,,Thu
+15/05/2025,,GBP,yellow,Industrial Production m/m,-0.7%,,,Thu
+15/05/2025,,GBP,yellow,Manufacturing Production m/m,-0.8%,,,Thu
+15/05/2025,,GBP,yellow,Prelim Business Investment q/q,5.9%,,,Thu
+15/05/2025,11:30am,CHF,yellow,PPI m/m,0.1%,,,Thu
+15/05/2025,11:45am,EUR,yellow,French Final CPI m/m,0.6%,,,Thu
+15/05/2025,2:00pm,EUR,yellow,Flash Employment Change q/q,0.3%,,,Thu
+15/05/2025,,EUR,yellow,Flash GDP q/q,0.3%,,,Thu
+15/05/2025,,EUR,yellow,Industrial Production m/m,2.6%,,,Thu
+15/05/2025,5:15pm,CAD,yellow,Housing Starts,279K,,,Thu
+15/05/2025,5:30pm,CAD,yellow,Manufacturing Sales m/m,-1.4%,,,Thu
+15/05/2025,,CAD,yellow,Wholesale Sales m/m,0.2%,,,Thu
+15/05/2025,,USD,red,Core PPI m/m,-0.4%,,,Thu
+15/05/2025,,USD,red,Core Retail Sales m/m,0.1%,,,Thu
+15/05/2025,,USD,red,PPI m/m,-0.5%,,,Thu
+15/05/2025,,USD,red,Retail Sales m/m,0.1%,,,Thu
+15/05/2025,,USD,red,Unemployment Claims,229K,,,Thu
+15/05/2025,,USD,orange,Empire State Manufacturing Index,-9.2,,,Thu
+15/05/2025,,USD,orange,Philly Fed Manufacturing Index,-4.0,,,Thu
+15/05/2025,5:40pm,USD,red,Fed Chair Powell Speaks,,,,Thu
+15/05/2025,6:15pm,USD,yellow,Capacity Utilization Rate,77.7%,,,Thu
+15/05/2025,,USD,yellow,Industrial Production m/m,0.0%,,,Thu
+15/05/2025,7:00pm,USD,yellow,Business Inventories m/m,0.1%,,,Thu
+15/05/2025,,USD,yellow,NAHB Housing Market Index,34,,,Thu
+15/05/2025,7:30pm,USD,yellow,Natural Gas Storage,110B,,,Thu
+15/05/2025,8:15pm,GBP,yellow,MPC Member Dhingra Speaks,,,,Thu
+15/05/2025,11:05pm,USD,yellow,FOMC Member Barr Speaks,,,,Thu
+16/05/2025,3:30am,NZD,yellow,BusinessNZ Manufacturing Index,53.9,,,Fri
+16/05/2025,4:50am,JPY,yellow,Prelim GDP Price Index y/y,3.3%,,,Fri
+16/05/2025,,JPY,yellow,Prelim GDP q/q,-0.2%,,,Fri
+16/05/2025,8:00am,NZD,orange,Inflation Expectations q/q,2.29%,,,Fri
+16/05/2025,9:30am,JPY,yellow,Revised Industrial Production m/m,0.2%,,,Fri
+16/05/2025,2:00pm,EUR,yellow,Italian Trade Balance,3.66B,,,Fri
+16/05/2025,,EUR,yellow,Trade Balance,27.9B,,,Fri
+16/05/2025,4:00pm,CHF,orange,SNB Chairman Schlegel Speaks,,,,Fri
+16/05/2025,5:30pm,CAD,yellow,Foreign Securities Purchases,-4.23B,,,Fri
+16/05/2025,,USD,yellow,Building Permits,1.41M,,,Fri
+16/05/2025,,USD,yellow,Housing Starts,1.36M,,,Fri
+16/05/2025,,USD,yellow,Import Prices m/m,0.1%,,,Fri
+16/05/2025,7:00pm,USD,red,Prelim UoM Consumer Sentiment,50.8,,,Fri
+16/05/2025,,USD,red,Prelim UoM Inflation Expectations,7.3%,,,Fri
+16/05/2025,8:00pm,GBP,yellow,MPC Member Lombardelli Speaks,,,,Fri
+17/05/2025,1:00am,USD,yellow,TIC Long-Term Purchases,161.8B,,,Sat
+17/05/2025,3:00am,USD,yellow,FOMC Member Barkin Speaks,,,,Sat
+17/05/2025,6:40am,USD,yellow,FOMC Member Daly Speaks,,,,Sat
+19/05/2025,2:20am,USD,yellow,FOMC Member Williams Speaks,,,,Mon
+19/05/2025,3:30am,NZD,yellow,BusinessNZ Services Index,48.5,,,Mon
+19/05/2025,3:45am,NZD,yellow,PPI Input q/q,2.9%,,,Mon
+19/05/2025,,NZD,yellow,PPI Output q/q,2.1%,,,Mon
+19/05/2025,4:01am,GBP,yellow,Rightmove HPI m/m,0.6%,,,Mon
+19/05/2025,6:30am,CNY,yellow,New Home Prices m/m,-0.12%,,,Mon
+19/05/2025,7:00am,CNY,orange,Industrial Production y/y,6.1%,,,Mon
+19/05/2025,,CNY,orange,Retail Sales y/y,5.1%,,,Mon
+19/05/2025,,CNY,yellow,Fixed Asset Investment ytd/y,4.0%,,,Mon
+19/05/2025,,CNY,yellow,NBS Press Conference,,,,Mon
+19/05/2025,,CNY,yellow,Unemployment Rate,5.1%,,,Mon
+19/05/2025,9:30am,JPY,yellow,Tertiary Industry Activity m/m,-0.3%,,,Mon
+19/05/2025,2:00pm,EUR,yellow,EU Economic Forecasts,,,,Mon
+19/05/2025,,EUR,yellow,Final Core CPI y/y,2.7%,,,Mon
+19/05/2025,,EUR,yellow,Final CPI y/y,2.2%,,,Mon
+19/05/2025,All Day,CAD,gray,Bank Holiday,,,,Mon
+19/05/2025,5:30pm,USD,yellow,FOMC Member Bostic Speaks,,,,Mon
+19/05/2025,5:45pm,USD,yellow,FOMC Member Jefferson Speaks,,,,Mon
+19/05/2025,,USD,yellow,FOMC Member Williams Speaks,,,,Mon
+19/05/2025,7:00pm,USD,yellow,CB Leading Index m/m,-1.0%,,,Mon
+19/05/2025,9:30pm,CHF,orange,SNB Chairman Schlegel Speaks,,,,Mon
+19/05/2025,10:15pm,USD,yellow,FOMC Member Logan Speaks,,,,Mon
+19/05/2025,10:30pm,USD,yellow,FOMC Member Kashkari Speaks,,,,Mon
+19/05/2025,11:45pm,USD,yellow,FOMC Member Bostic Speaks,,,,Mon
+20/05/2025,6:00am,CNY,orange,1-y Loan Prime Rate,3.00%,,,Tue
+20/05/2025,,CNY,orange,5-y Loan Prime Rate,3.50%,,,Tue
+20/05/2025,9:30am,AUD,red,Cash Rate,3.85%,,,Tue
+20/05/2025,,AUD,red,RBA Monetary Policy Statement,,,,Tue
+20/05/2025,,AUD,red,RBA Rate Statement,,,,Tue
+20/05/2025,10:30am,AUD,orange,RBA Press Conference,,,,Tue
+20/05/2025,11:00am,EUR,yellow,German PPI m/m,-0.6%,,,Tue
+20/05/2025,1:00pm,EUR,yellow,Current Account,50.9B,,,Tue
+20/05/2025,,GBP,yellow,MPC Member Pill Speaks,,,,Tue
+20/05/2025,Day 1,All,yellow,G7 Meetings,,,,Tue
+20/05/2025,5:30pm,CAD,red,CPI m/m,-0.1%,,,Tue
+20/05/2025,,CAD,red,Median CPI y/y,3.2%,,,Tue
+20/05/2025,,CAD,red,Trimmed CPI y/y,3.1%,,,Tue
+20/05/2025,,CAD,orange,Common CPI y/y,2.5%,,,Tue
+20/05/2025,5:32pm,CAD,yellow,Core CPI m/m,0.5%,,,Tue
+20/05/2025,6:00pm,USD,yellow,FOMC Member Barkin Speaks,,,,Tue
+20/05/2025,,USD,yellow,FOMC Member Bostic Speaks,,,,Tue
+20/05/2025,7:00pm,EUR,yellow,Consumer Confidence,-15,,,Tue
+20/05/2025,7:14pm,NZD,yellow,GDT Price Index,-0.9%,,,Tue
+20/05/2025,10:00pm,USD,yellow,FOMC Member Musalem Speaks,,,,Tue
+21/05/2025,12:00am,USD,orange,President Trump Speaks,,,,Wed
+21/05/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Wed
+21/05/2025,2:00am,USD,yellow,FOMC Member Kugler Speaks,,,,Wed
+21/05/2025,3:45am,NZD,yellow,Trade Balance,1426M,,,Wed
+21/05/2025,4:00am,USD,yellow,FOMC Member Daly Speaks,,,,Wed
+21/05/2025,,USD,yellow,FOMC Member Hammack Speaks,,,,Wed
+21/05/2025,4:50am,JPY,yellow,Trade Balance,-0.41T,,,Wed
+21/05/2025,5:30am,AUD,yellow,MI Leading Index m/m,-0.01%,,,Wed
+21/05/2025,8:00am,NZD,yellow,Credit Card Spending y/y,0.5%,,,Wed
+21/05/2025,11:00am,GBP,red,CPI y/y,3.5%,,,Wed
+21/05/2025,,GBP,yellow,Core CPI y/y,3.8%,,,Wed
+21/05/2025,,GBP,yellow,RPI y/y,4.5%,,,Wed
+21/05/2025,1:00pm,EUR,orange,ECB Financial Stability Review,,,,Wed
+21/05/2025,1:30pm,GBP,yellow,HPI y/y,6.4%,,,Wed
+21/05/2025,Day 2,All,yellow,G7 Meetings,,,,Wed
+21/05/2025,2:34pm,EUR,yellow,German 10-y Bond Auction,2.66|2.4,,,Wed
+21/05/2025,5:30pm,CAD,yellow,NHPI m/m,-0.4%,,,Wed
+21/05/2025,7:30pm,USD,yellow,Crude Oil Inventories,1.3M,,,Wed
+21/05/2025,9:15pm,USD,yellow,FOMC Member Barkin Speaks,,,,Wed
+21/05/2025,,USD,yellow,FOMC Member Bowman Speaks,,,,Wed
+22/05/2025,4:00am,AUD,yellow,Flash Manufacturing PMI,51.7,,,Thu
+22/05/2025,,AUD,yellow,Flash Services PMI,50.5,,,Thu
+22/05/2025,4:50am,JPY,yellow,Core Machinery Orders m/m,13.0%,,,Thu
+22/05/2025,5:30am,JPY,yellow,Flash Manufacturing PMI,49.0,,,Thu
+22/05/2025,7:00am,NZD,orange,Annual Budget Release,,,,Thu
+22/05/2025,11:00am,GBP,yellow,Public Sector Net Borrowing,20.2B,,,Thu
+22/05/2025,12:15pm,EUR,red,French Flash Manufacturing PMI,49.5,,,Thu
+22/05/2025,,EUR,red,French Flash Services PMI,47.4,,,Thu
+22/05/2025,,GBP,yellow,MPC Member Breeden Speaks,,,,Thu
+22/05/2025,12:30pm,EUR,red,German Flash Manufacturing PMI,48.8,,,Thu
+22/05/2025,,EUR,red,German Flash Services PMI,47.2,,,Thu
+22/05/2025,1:00pm,EUR,orange,Flash Manufacturing PMI,49.4,,,Thu
+22/05/2025,,EUR,orange,Flash Services PMI,48.9,,,Thu
+22/05/2025,,EUR,orange,German ifo Business Climate,87.5,,,Thu
+22/05/2025,1:30pm,AUD,yellow,RBA Deputy Gov Hauser Speaks,,,,Thu
+22/05/2025,,GBP,red,Flash Manufacturing PMI,45.1,,,Thu
+22/05/2025,,GBP,red,Flash Services PMI,50.2,,,Thu
+22/05/2025,Day 3,All,yellow,G7 Meetings,,,,Thu
+22/05/2025,3:00pm,EUR,yellow,German Buba Monthly Report,,,,Thu
+22/05/2025,,GBP,yellow,CBI Industrial Order Expectations,-30,,,Thu
+22/05/2025,3:50pm,GBP,yellow,MPC Member Breeden Speaks,,,,Thu
+22/05/2025,4:30pm,EUR,yellow,ECB Monetary Policy Meeting Accounts,,,,Thu
+22/05/2025,5:00pm,GBP,yellow,MPC Member Dhingra Speaks,,,,Thu
+22/05/2025,5:30pm,CAD,yellow,IPPI m/m,-0.8%,,,Thu
+22/05/2025,,CAD,yellow,RMPI m/m,-3.0%,,,Thu
+22/05/2025,,GBP,yellow,MPC Member Pill Speaks,,,,Thu
+22/05/2025,,USD,red,Unemployment Claims,227K,,,Thu
+22/05/2025,5:55pm,EUR,yellow,Belgian NBB Business Climate,-13.5,,,Thu
+22/05/2025,6:30pm,EUR,yellow,German Buba President Nagel Speaks,,,,Thu
+22/05/2025,6:45pm,USD,red,Flash Manufacturing PMI,52.3,,,Thu
+22/05/2025,,USD,red,Flash Services PMI,52.3,,,Thu
+22/05/2025,7:00pm,USD,orange,Existing Home Sales,4.00M,,,Thu
+22/05/2025,7:30pm,USD,yellow,Natural Gas Storage,120B,,,Thu
+22/05/2025,11:00pm,USD,yellow,FOMC Member Williams Speaks,,,,Thu
+22/05/2025,11:30pm,CAD,red,BOC Gov Macklem Speaks,,,,Thu
+23/05/2025,12:15am,CAD,yellow,Gov Council Member Gravelle Speaks,,,,Fri
+23/05/2025,3:45am,NZD,orange,Retail Sales q/q,0.8%,,,Fri
+23/05/2025,,NZD,yellow,Core Retail Sales q/q,0.4%,,,Fri
+23/05/2025,4:01am,GBP,yellow,GfK Consumer Confidence,-20,,,Fri
+23/05/2025,4:30am,JPY,yellow,National Core CPI y/y,3.5%,,,Fri
+23/05/2025,11:00am,EUR,yellow,German Final GDP q/q,0.4%,,,Fri
+23/05/2025,,GBP,red,Retail Sales m/m,1.2%,,,Fri
+23/05/2025,4:03pm,CNY,yellow,Foreign Direct Investment ytd/y,-10.9%,,,Fri
+23/05/2025,5:30pm,CAD,red,Core Retail Sales m/m,-0.7%,,,Fri
+23/05/2025,,CAD,red,Retail Sales m/m,0.8%,,,Fri
+23/05/2025,,CAD,yellow,Corporate Profits q/q,2.7%,,,Fri
+23/05/2025,6:35pm,USD,yellow,FOMC Member Musalem Speaks,,,,Fri
+23/05/2025,,USD,yellow,FOMC Member Schmid Speaks,,,,Fri
+23/05/2025,7:00pm,USD,orange,New Home Sales,743K,,,Fri
+23/05/2025,9:00pm,USD,yellow,FOMC Member Cook Speaks,,,,Fri
+25/05/2025,11:40pm,USD,orange,Fed Chair Powell Speaks,,,,Sun
+26/05/2025,All Day,GBP,gray,Bank Holiday,,,,Mon
+26/05/2025,All Day,USD,gray,Bank Holiday,,,,Mon
+26/05/2025,6:20pm,EUR,orange,ECB President Lagarde Speaks,,,,Mon
+26/05/2025,6:30pm,EUR,yellow,German Buba President Nagel Speaks,,,,Mon
+27/05/2025,4:01am,GBP,yellow,BRC Shop Price Index y/y,-0.1%,,,Tue
+27/05/2025,4:50am,JPY,yellow,SPPI y/y,3.1%,,,Tue
+27/05/2025,5:00am,JPY,red,BOJ Gov Ueda Speaks,,,,Tue
+27/05/2025,10:02am,JPY,yellow,BOJ Core CPI y/y,2.4%,,,Tue
+27/05/2025,11:00am,CHF,yellow,Trade Balance,6.36B,,,Tue
+27/05/2025,,EUR,yellow,German GfK Consumer Climate,-19.9,,,Tue
+27/05/2025,11:45am,EUR,yellow,French Prelim CPI m/m,-0.1%,,,Tue
+27/05/2025,1:00pm,AUD,yellow,RBA Deputy Gov Hauser Speaks,,,,Tue
+27/05/2025,,USD,yellow,FOMC Member Kashkari Speaks,,,,Tue
+27/05/2025,3:00pm,GBP,yellow,CBI Realized Sales,-27,,,Tue
+27/05/2025,5:30pm,USD,orange,Core Durable Goods Orders m/m,0.2%,,,Tue
+27/05/2025,,USD,orange,Durable Goods Orders m/m,-6.3%,,,Tue
+27/05/2025,6:00pm,USD,yellow,HPI m/m,-0.1%,,,Tue
+27/05/2025,,USD,yellow,S&P/CS Composite-20 HPI y/y,4.1%,,,Tue
+27/05/2025,7:00pm,USD,orange,CB Consumer Confidence,98.0,,,Tue
+27/05/2025,9:00pm,EUR,yellow,German Buba President Nagel Speaks,,,,Tue
+27/05/2025,9:20pm,CHF,orange,SNB Chairman Schlegel Speaks,,,,Tue
+28/05/2025,5:00am,USD,yellow,FOMC Member Williams Speaks,,,,Wed
+28/05/2025,6:30am,AUD,red,CPI y/y,2.4%,,,Wed
+28/05/2025,,AUD,yellow,Construction Work Done q/q,0.0%,,,Wed
+28/05/2025,7:00am,NZD,red,Official Cash Rate,3.25%,,,Wed
+28/05/2025,,NZD,red,RBNZ Monetary Policy Statement,,,,Wed
+28/05/2025,,NZD,red,RBNZ Rate Statement,,,,Wed
+28/05/2025,7:10am,GBP,yellow,MPC Member Lombardelli Speaks,,,,Wed
+28/05/2025,,USD,orange,FOMC Member Waller Speaks,,,,Wed
+28/05/2025,8:00am,NZD,red,RBNZ Press Conference,,,,Wed
+28/05/2025,11:00am,EUR,yellow,German Import Prices m/m,-1.7%,,,Wed
+28/05/2025,11:45am,EUR,yellow,French Consumer Spending m/m,0.3%,,,Wed
+28/05/2025,,EUR,yellow,French Final Private Payrolls q/q,-0.1%,,,Wed
+28/05/2025,,EUR,yellow,French Prelim GDP q/q,0.1%,,,Wed
+28/05/2025,12:55pm,EUR,yellow,German Unemployment Change,34K,,,Wed
+28/05/2025,1:00pm,CHF,yellow,UBS Economic Expectations,-22.0,,,Wed
+28/05/2025,,USD,yellow,FOMC Member Kashkari Speaks,,,,Wed
+28/05/2025,All Day,All,orange,OPEC-JMMC Meetings,,,,Wed
+28/05/2025,6:00pm,CNY,yellow,CB Leading Index m/m,-0.3%,,,Wed
+28/05/2025,6:59pm,USD,orange,Richmond Manufacturing Index,-9,,,Wed
+28/05/2025,11:00pm,USD,red,FOMC Meeting Minutes,,,,Wed
+29/05/2025,1:30am,USD,yellow,API Weekly Statistical Bulletin,,,,Thu
+29/05/2025,2:10am,NZD,orange,RBNZ Gov Hawkesby Speaks,,,,Thu
+29/05/2025,6:00am,NZD,yellow,ANZ Business Confidence,36.6,,,Thu
+29/05/2025,6:30am,AUD,yellow,Private Capital Expenditure q/q,-0.1%,,,Thu
+29/05/2025,10:00am,JPY,yellow,Consumer Confidence,32.8,,,Thu
+29/05/2025,All Day,CHF,gray,Bank Holiday,,,,Thu
+29/05/2025,All Day,EUR,gray,French Bank Holiday,,,,Thu
+29/05/2025,All Day,EUR,gray,German Bank Holiday,,,,Thu
+29/05/2025,2:00pm,GBP,yellow,MPC Member Breeden Speaks,,,,Thu
+29/05/2025,2:11pm,EUR,yellow,Italian 10-y Bond Auction,3.57|1.5,,,Thu
+29/05/2025,5:30pm,CAD,yellow,Current Account,-2.1B,,,Thu
+29/05/2025,,USD,red,Prelim GDP q/q,-0.2%,,,Thu
+29/05/2025,,USD,red,Unemployment Claims,240K,,,Thu
+29/05/2025,,USD,orange,Prelim GDP Price Index q/q,3.7%,,,Thu
+29/05/2025,,USD,yellow,FOMC Member Barkin Speaks,,,,Thu
+29/05/2025,7:00pm,USD,orange,Pending Home Sales m/m,-6.3%,,,Thu
+29/05/2025,7:30pm,USD,yellow,Natural Gas Storage,101B,,,Thu
+29/05/2025,7:40pm,USD,yellow,FOMC Member Goolsbee Speaks,,,,Thu
+29/05/2025,8:00pm,GBP,red,BOE Gov Bailey Speaks,,,,Thu
+29/05/2025,9:00pm,USD,yellow,Crude Oil Inventories,-2.8M,,,Thu
+29/05/2025,11:00pm,USD,yellow,FOMC Member Kugler Speaks,,,,Thu
+30/05/2025,1:00am,USD,yellow,FOMC Member Daly Speaks,,,,Fri
+30/05/2025,3:45am,NZD,yellow,Building Consents m/m,-15.6%,,,Fri
+30/05/2025,4:30am,JPY,orange,Tokyo Core CPI y/y,3.6%,,,Fri
+30/05/2025,,JPY,yellow,Unemployment Rate,2.5%,,,Fri
+30/05/2025,4:50am,JPY,yellow,Prelim Industrial Production m/m,-0.9%,,,Fri
+30/05/2025,,JPY,yellow,Retail Sales y/y,3.3%,,,Fri
+30/05/2025,5:25am,USD,yellow,FOMC Member Logan Speaks,,,,Fri
+30/05/2025,6:30am,AUD,orange,Retail Sales m/m,-0.1%,,,Fri
+30/05/2025,,AUD,yellow,Building Approvals m/m,-5.7%,,,Fri
+30/05/2025,,AUD,yellow,Private Sector Credit m/m,0.7%,,,Fri
+30/05/2025,10:00am,JPY,yellow,Housing Starts y/y,-26.6%,,,Fri
+30/05/2025,11:00am,EUR,yellow,German Retail Sales m/m,-1.1%,,,Fri
+30/05/2025,All Day,EUR,red,German Prelim CPI m/m,0.1%,,,Fri
+30/05/2025,12:00pm,CHF,yellow,KOF Economic Barometer,98.5,,,Fri
+30/05/2025,,EUR,orange,Spanish Flash CPI y/y,1.9%,,,Fri
+30/05/2025,1:00pm,EUR,yellow,M3 Money Supply y/y,3.9%,,,Fri
+30/05/2025,,EUR,yellow,Private Loans y/y,1.9%,,,Fri
+30/05/2025,2:02pm,EUR,yellow,Italian Prelim CPI m/m,0.0%,,,Fri
+30/05/2025,5:30pm,CAD,red,GDP m/m,0.1%,,,Fri
+30/05/2025,,USD,red,Core PCE Price Index m/m,0.1%,,,Fri
+30/05/2025,,USD,yellow,Goods Trade Balance,-87.6B,,,Fri
+30/05/2025,,USD,yellow,Personal Income m/m,0.8%,,,Fri
+30/05/2025,,USD,yellow,Personal Spending m/m,0.2%,,,Fri
+30/05/2025,,USD,yellow,Prelim Wholesale Inventories m/m,0.0%,,,Fri
+30/05/2025,6:45pm,USD,yellow,Chicago PMI,40.5,,,Fri
+30/05/2025,7:00pm,USD,orange,Revised UoM Consumer Sentiment,52.2,,,Fri
+30/05/2025,,USD,yellow,Revised UoM Inflation Expectations,6.6%,,,Fri
+30/05/2025,9:20pm,USD,yellow,FOMC Member Bostic Speaks,,,,Fri
+31/05/2025,4:30am,USD,yellow,FOMC Member Goolsbee Speaks,,,,Sat
+31/05/2025,6:30am,CNY,red,Manufacturing PMI,49.5,,,Sat
+31/05/2025,,CNY,orange,Non-Manufacturing PMI,50.3,,,Sat
