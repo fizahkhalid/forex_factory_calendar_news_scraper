@@ -1,64 +1,91 @@
-try:
-    from selenium import webdriver
-    from selenium.webdriver.common.by import By
-    driver = webdriver.Chrome()
-except:
-    print ("AF: No Chrome webdriver installed")
-    driver = webdriver.Chrome(ChromeDriverManager().install())
-
 import time
+import argparse
 import json
 import pandas as pd
 from datetime import datetime
-from config import ALLOWED_ELEMENT_TYPES,ICON_COLOR_MAP
+from config import ALLOWED_ELEMENT_TYPES, ICON_COLOR_MAP
 from utils import reformat_scraped_data
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-driver.get("https://www.forexfactory.com/calendar?month=this")
+def init_driver() -> webdriver.Chrome:
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
+    options.add_argument("window-size=1920x1080")
+    options.add_argument(
+        "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    )
 
-month =  datetime.now().strftime("%B")
+    print("Attempting to initialize WebDriver with ChromeDriverManager...")
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+    print("WebDriver initialized successfully using ChromeDriverManager.")
+    return driver
 
-table = driver.find_element(By.CLASS_NAME, "calendar__table")
 
-data = []
-previous_row_count = 0
-# Scroll down to the end of the page
-while True:
-    # Record the current scroll position
-    before_scroll = driver.execute_script("return window.pageYOffset;")
-    
-    # Scroll down a fixed amount
-    driver.execute_script("window.scrollTo(0, window.pageYOffset + 500);")
-    
-    # Wait for a short moment to allow content to load
-    time.sleep(2)
-    
-    # Record the new scroll position
-    after_scroll = driver.execute_script("return window.pageYOffset;")
-    
-    # If the scroll position hasn't changed, we've reached the end of the page
-    if before_scroll == after_scroll:
-        break
+def scroll_to_end(driver):
+    previous_position = None
+    while True:
+        current_position = driver.execute_script("return window.pageYOffset;")
+        driver.execute_script("window.scrollTo(0, window.pageYOffset + 500);")
+        time.sleep(2)
+        if current_position == previous_position:
+            break
+        previous_position = current_position
 
-# Now that we've scrolled to the end, collect the data
-for row in table.find_elements(By.TAG_NAME, "tr"):
-    row_data = []
-    for element in row.find_elements(By.TAG_NAME, "td"):
-        class_name = element.get_attribute('class')
-        if class_name in ALLOWED_ELEMENT_TYPES:
-            if element.text:
-                row_data.append(element.text)
-            elif "calendar__impact" in class_name:
-                impact_elements = element.find_elements(By.TAG_NAME, "span")
-                for impact in impact_elements:
-                    impact_class = impact.get_attribute("class")
-                    color = ICON_COLOR_MAP[impact_class]
-                if color:
-                    row_data.append(color)
-                else:
-                    row_data.append("impact")
 
-    if len(row_data):
-        data.append(row_data)
 
-reformat_scraped_data(data,month)
+def parse_table(driver, month):
+    data = []
+    table = driver.find_element(By.CLASS_NAME, "calendar__table")
+
+    for row in table.find_elements(By.TAG_NAME, "tr"):
+        row_data = []
+        for element in row.find_elements(By.TAG_NAME, "td"):
+            class_name = element.get_attribute('class')
+            if class_name in ALLOWED_ELEMENT_TYPES:
+                if element.text:
+                    row_data.append(element.text)
+                elif "calendar__impact" in class_name:
+                    impact_elements = element.find_elements(By.TAG_NAME, "span")
+                    color = None
+                    for impact in impact_elements:
+                        impact_class = impact.get_attribute("class")
+                        color = ICON_COLOR_MAP.get(impact_class)
+                    row_data.append(color if color else "impact")
+
+        if row_data:
+            data.append(row_data)
+
+    reformat_scraped_data(data, month)
+
+
+def get_target_month(arg_month=None):
+    if arg_month:
+        return arg_month
+    return datetime.now().strftime("%B")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Scrape Forex Factory calendar.")
+    parser.add_argument("--month", type=str, help="Target month (e.g. June, July). Defaults to current month.")
+    args = parser.parse_args()
+
+    month = get_target_month(args.month)
+    url_param = "this" if not args.month else args.month.lower()
+    url = f"https://www.forexfactory.com/calendar?month={url_param}"
+
+    driver = init_driver()
+    driver.get(url)
+    scroll_to_end(driver)
+    parse_table(driver, month)
+    driver.quit()
+
+if __name__ == "__main__":
+    main()
