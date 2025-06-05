@@ -4,7 +4,7 @@ import json
 import pandas as pd
 from datetime import datetime
 from config import ALLOWED_ELEMENT_TYPES, ICON_COLOR_MAP
-from utils import reformat_scraped_data
+from utils import save_csv
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -41,50 +41,60 @@ def scroll_to_end(driver):
 
 
 
-def parse_table(driver, month):
+def parse_table(driver, month,year):
     data = []
     table = driver.find_element(By.CLASS_NAME, "calendar__table")
 
     for row in table.find_elements(By.TAG_NAME, "tr"):
-        row_data = []
+        row_data = {}
         for element in row.find_elements(By.TAG_NAME, "td"):
             class_name = element.get_attribute('class')
             if class_name in ALLOWED_ELEMENT_TYPES:
+                class_name_key = ALLOWED_ELEMENT_TYPES.get(f"{class_name}","cell")
                 if element.text:
-                    row_data.append(element.text)
+                    row_data[f"{class_name_key}"] = element.text
                 elif "calendar__impact" in class_name:
                     impact_elements = element.find_elements(By.TAG_NAME, "span")
                     color = None
                     for impact in impact_elements:
                         impact_class = impact.get_attribute("class")
                         color = ICON_COLOR_MAP.get(impact_class)
-                    row_data.append(color if color else "impact")
+                    row_data[f"{class_name_key}"] = color if color else "impact"
+                else:
+                    row_data[f"{class_name_key}"] = "empty"
 
         if row_data:
             data.append(row_data)
 
-    reformat_scraped_data(data, month)
+    
+
+    save_csv(data, month, year)
+
+    return data,month
 
 
 def get_target_month(arg_month=None):
-    if arg_month:
-        return arg_month
-    return datetime.now().strftime("%B")
+    now = datetime.now()
+    month = arg_month if arg_month else now.strftime("%B")
+    year = now.strftime("%Y")
+    return month, year
 
 
 def main():
     parser = argparse.ArgumentParser(description="Scrape Forex Factory calendar.")
     parser.add_argument("--month", type=str, help="Target month (e.g. June, July). Defaults to current month.")
+
     args = parser.parse_args()
 
-    month = get_target_month(args.month)
+    month,year = get_target_month(args.month)
+
     url_param = "this" if not args.month else args.month.lower()
     url = f"https://www.forexfactory.com/calendar?month={url_param}"
 
     driver = init_driver()
     driver.get(url)
     scroll_to_end(driver)
-    parse_table(driver, month)
+    parse_table(driver, month,year)
     driver.quit()
 
 if __name__ == "__main__":

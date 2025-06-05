@@ -2,6 +2,7 @@ import os
 import re
 import json
 import pandas as pd
+from datetime import datetime
 
 def read_json(path):
     """
@@ -14,127 +15,79 @@ def read_json(path):
     return data
 
 
+def extract_date_parts(text,year):
+    # Full pattern: Day (e.g., Sun), Month (e.g., Jun), Day number (e.g., 1 or 01)
+    pattern = r'\b(?P<day>Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b\s+' \
+              r'(?P<month>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b\s+' \
+              r'(?P<date>\d{1,2})\b'
 
-def contains_day_or_month(text):
-    """
-    Check if the given text contains a day of the week or a month.
+    match = re.search(pattern, text)
+    if match:
+        month_abbr = match.group("month")
+        day = int(match.group("date"))
 
-    Args:
-        text (str): The input text to check.
+        # Convert month abbreviation to month number
+        month_number = datetime.strptime(month_abbr, "%b").month
 
-    Returns:
-        tuple: A tuple containing a boolean indicating whether a match was found,
-        and the matched text (day or month) if found.
-    """
+        # Format date as dd/mm/yyyy
+        formatted_date = f"{day:02d}/{month_number:02d}/{year}"
 
-     # Regular expressions for days of the week and months
-    days_of_week = r'\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b'
-    months = r'\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b'
-    pattern = f'({days_of_week}|{months})'
-    
-    match = re.search(pattern, text, re.IGNORECASE)
-    
-    if not match:
-        return False,None
-    
-    matched_text = match.group(0)
-    if re.match(days_of_week, matched_text, re.IGNORECASE):
-        return True, matched_text
-  
-
-
-def find_pattern_category(text):
-    """
-    Find the category of a specific pattern within the given text.
-
-    Args:
-        text (str): The input text to analyze.
-
-    Returns:
-        tuple: A tuple containing a boolean indicating whether a match was found,
-        the category of the matched pattern, and the matched text.
-    """
-
-    # Regular expressions for different patterns
-    time_pattern = r'\d{1,2}:\d{2}(am|pm)'
-    day_pattern = r'Day\s+\d+'
-    date_range_pattern = r'\d{1,2}(st|nd|rd|th)\s*-\s*\d{1,2}(st|nd|rd|th)'
-    tentative_pattern = r'\bTentative\b'
-    pattern = f'({time_pattern}|{day_pattern}|{date_range_pattern}|{tentative_pattern})'
-    match = re.search(pattern, text, re.IGNORECASE)
-
-    if not match:
-        return False,None,None
-    
-    matched_text = match.group(0)
-    if re.match(time_pattern, matched_text, re.IGNORECASE):
-        category = "time"
-    elif re.match(day_pattern, matched_text, re.IGNORECASE):
-        category = "day_reference"
-    elif re.match(date_range_pattern, matched_text, re.IGNORECASE):
-        category = "date_range"
-    elif re.match(tentative_pattern, matched_text, re.IGNORECASE):
-        category = "tentative"
+        return {
+            "day": match.group("day"),
+            "date": formatted_date
+        }
     else:
-        category = "Unknown"
-    return True, category, matched_text
-    
+        return None
 
-def reformat_scraped_data(data, month):
-    """
-    Reformat scraped data and save it as a DataFrame and a CSV file.
 
-    Args:
-        data (list): The scraped data as a list of lists.
-        month (str): The month for naming the output CSV file.
-
-    Returns:
-        pd.DataFrame: The reformatted data as a DataFrame.
-    """
+def reformat_data(data:list, year:str)->list:
     current_date = ''
     current_time = ''
+    current_day = ''
     structured_rows = []
 
     for row in data:
-        # Detect and update the current date
-        if len(row) == 1 or len(row) == 5:
-            match, day = contains_day_or_month(row[0])
-            if match:
-                current_date = row[0].replace(day, "").replace("\n", "").strip()
+        new_row = row.copy()
 
-        # Detect and update time
-        if len(row) == 4:
-            current_time = row[0].strip()
+        if "date" in new_row and new_row['date']!="empty":
+            date_parts = extract_date_parts(new_row["date"], year)
+            if date_parts:
+                current_date = date_parts["date"]
+                current_day = date_parts["day"]
 
-        if len(row) == 5:
-            current_time = row[1].strip()
+        if "time" in new_row:
+            current_time = new_row["time"].strip()
 
-        if len(row) >= 5:
-            # Extract from end of row to handle variable lengths
-            event = row[-1].strip()
-            impact = row[-2].strip()
-            currency = row[-3].strip()
-            forecast = row[-4].strip() if len(row) > 5 else ''
-            previous = row[-5].strip() if len(row) > 6 else ''
-            actual = row[-6].strip() if len(row) > 7 else ''
+        if len(row)==1:
+            continue
 
-            structured_rows.append([
-                current_date,
-                current_time,
-                currency,
-                impact,
-                event,
-                actual,
-                forecast,
-                previous
-            ])
+        new_row["day"] = current_day
+        new_row["date"] = current_date
+        new_row["time"] = current_time
+        
+        new_row["currency"] = row.get("currency", "")
+        new_row["impact"] = row.get("impact","")
+        new_row["event"] = row.get("event","")
+        new_row["actual"] = row.get("actual","")
+        new_row["forecast"] = row.get("forecast","")
+        new_row["previous"] = row.get("previous","")
 
-    df = pd.DataFrame(structured_rows, columns=[
-        'date', 'time', 'currency', 'impact', 'event',
-        'actual', 'forecast', 'previous'
-    ])
 
+
+        # Replace "empty" with ""
+        for key, value in new_row.items():
+            if value == "empty":
+                new_row[key] = ""
+
+        structured_rows.append(new_row)
+
+    return structured_rows
+
+
+def save_csv(data, month, year):
+    structured_rows = reformat_data(data,year)
+    header = list(structured_rows[0].keys())
+    df = pd.DataFrame(structured_rows, columns=header)
     os.makedirs("news", exist_ok=True)
-    df.to_csv(f"news/{month}_news.csv", index=False)
-
-    return df
+    df.to_csv(f"news/{month}_{year}_news.csv", index=False)
+    return True
