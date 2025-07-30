@@ -5,6 +5,7 @@ ALLOWED_ELEMENT_TYPES = {
     "calendar__cell calendar__time": "time",  # Time of the news event
     "calendar__cell calendar__currency": "currency",  # Affected currency
     "calendar__cell calendar__impact": "impact",  # Expected impact level (color-coded)
+    "calendar__cell calendar__detail": "detail",  # Expected impact level (color-coded)
     "calendar__cell calendar__event event": "event",  # News event title
     "calendar__cell calendar__actual": "actual",  # Actual reported value
     "calendar__cell calendar__forecast": "forecast",  # Forecasted value
@@ -29,3 +30,19 @@ ALLOWED_CURRENCY_CODES = ['CAD', 'EUR', 'GBP', 'USD']
 
 # Allowed impact levels for filtering news events
 ALLOWED_IMPACT_COLORS = ['red', 'orange', 'gray']
+
+# Timezone configuration
+SCRAPER_TIMEZONE = None         # This will be detected from Selenium
+
+# Set this to the target timezone you'd like your output to be in.
+# If left as None, no conversion will happen.
+# Examples:
+#   "UTC"                 → Coordinated Universal Time
+#   "US/Eastern"          → Eastern Time (e.g., New York, Boston)
+#   "US/Central"          → Central Time (e.g., Chicago)
+#   "US/Pacific"          → Pacific Time (e.g., Los Angeles)
+#   "Europe/London"       → UK Time (adjusts for DST)
+#   "Asia/Karachi"        → Pakistan Standard Time
+#   "Asia/Kolkata"        → India Standard Time
+
+TARGET_TIMEZONE = "Asia/Karachi"
