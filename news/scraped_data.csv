@@ -1,0 +1,89 @@
+time,currency,impact,event,detail,actual,forecast,previous,day,date
+All Day,CAD,gray,Bank Holiday,https://www.forexfactory.com/calendar?month=this#detail=140516,,,,Mon,01/09/2025
+All Day,USD,gray,Bank Holiday,https://www.forexfactory.com/calendar?month=this#detail=140505,,,,Mon,01/09/2025
+09:00,EUR,orange,Core CPI Flash Estimate y/y,https://www.forexfactory.com/calendar?month=this#detail=145417,2.3%,,,Tue,02/09/2025
+09:00,EUR,orange,CPI Flash Estimate y/y,https://www.forexfactory.com/calendar?month=this#detail=145418,2.1%,,,Tue,02/09/2025
+14:00,USD,red,ISM Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=141142,48.7,,,Tue,02/09/2025
+14:00,USD,orange,ISM Manufacturing Prices,https://www.forexfactory.com/calendar?month=this#detail=141154,63.7,,,Tue,02/09/2025
+18:00,USD,orange,President Trump Speaks,https://www.forexfactory.com/calendar?month=this#detail=146466,,,,Wed,03/09/2025
+07:30,EUR,orange,ECB President Lagarde Speaks,https://www.forexfactory.com/calendar?month=this#detail=146455,,,,Wed,03/09/2025
+13:15,GBP,red,Monetary Policy Report Hearings,https://www.forexfactory.com/calendar?month=this#detail=146463,,,,Wed,03/09/2025
+14:00,USD,red,JOLTS Job Openings,https://www.forexfactory.com/calendar?month=this#detail=143899,7.18M,,,Wed,03/09/2025
+12:15,USD,red,ADP Non-Farm Employment Change,https://www.forexfactory.com/calendar?month=this#detail=142727,54K,,,Thu,04/09/2025
+12:30,USD,red,Unemployment Claims,https://www.forexfactory.com/calendar?month=this#detail=141465,237K,,,Thu,04/09/2025
+14:00,USD,red,ISM Services PMI,https://www.forexfactory.com/calendar?month=this#detail=141166,52.0,,,Thu,04/09/2025
+06:00,GBP,orange,Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=143671,0.6%,,,Fri,05/09/2025
+12:30,CAD,red,Employment Change,https://www.forexfactory.com/calendar?month=this#detail=144976,-65.5K,,,Fri,05/09/2025
+12:30,CAD,red,Unemployment Rate,https://www.forexfactory.com/calendar?month=this#detail=144988,7.1%,,,Fri,05/09/2025
+12:30,USD,red,Average Hourly Earnings m/m,https://www.forexfactory.com/calendar?month=this#detail=142597,0.3%,,,Fri,05/09/2025
+12:30,USD,red,Non-Farm Employment Change,https://www.forexfactory.com/calendar?month=this#detail=142573,22K,,,Fri,05/09/2025
+12:30,USD,red,Unemployment Rate,https://www.forexfactory.com/calendar?month=this#detail=142585,4.3%,,,Fri,05/09/2025
+14:00,CAD,orange,Ivey PMI,https://www.forexfactory.com/calendar?month=this#detail=144940,50.1,,,Fri,05/09/2025
+20:00,USD,orange,President Trump Speaks,https://www.forexfactory.com/calendar?month=this#detail=146890,,,,Sat,06/09/2025
+12:30,USD,red,Core PPI m/m,https://www.forexfactory.com/calendar?month=this#detail=142627,-0.1%,,,Wed,10/09/2025
+12:30,USD,red,PPI m/m,https://www.forexfactory.com/calendar?month=this#detail=142615,-0.1%,,,Wed,10/09/2025
+12:15,EUR,red,Main Refinancing Rate,https://www.forexfactory.com/calendar?month=this#detail=142938,2.15%,,,Thu,11/09/2025
+12:15,EUR,red,Monetary Policy Statement,https://www.forexfactory.com/calendar?month=this#detail=142940,,,,Thu,11/09/2025
+12:30,USD,red,Core CPI m/m,https://www.forexfactory.com/calendar?month=this#detail=142663,0.3%,,,Thu,11/09/2025
+12:30,USD,red,CPI m/m,https://www.forexfactory.com/calendar?month=this#detail=142639,0.4%,,,Thu,11/09/2025
+12:30,USD,red,CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=142651,2.9%,,,Thu,11/09/2025
+12:30,USD,red,Unemployment Claims,https://www.forexfactory.com/calendar?month=this#detail=141466,263K,,,Thu,11/09/2025
+12:45,EUR,red,ECB Press Conference,https://www.forexfactory.com/calendar?month=this#detail=142939,,,,Thu,11/09/2025
+06:00,GBP,red,GDP m/m,https://www.forexfactory.com/calendar?month=this#detail=143737,0.0%,,,Fri,12/09/2025
+14:00,USD,red,Prelim UoM Consumer Sentiment,https://www.forexfactory.com/calendar?month=this#detail=141271,,,,Fri,12/09/2025
+14:00,USD,red,Prelim UoM Inflation Expectations,https://www.forexfactory.com/calendar?month=this#detail=141272,,,,Fri,12/09/2025
+12:30,USD,orange,Empire State Manufacturing Index,https://www.forexfactory.com/calendar?month=this#detail=141179,,,,Mon,15/09/2025
+06:00,GBP,orange,Average Earnings Index 3m/y,https://www.forexfactory.com/calendar?month=this#detail=143806,,,,Tue,16/09/2025
+06:00,GBP,orange,Claimant Count Change,https://www.forexfactory.com/calendar?month=this#detail=143807,,,,Tue,16/09/2025
+09:00,EUR,orange,German ZEW Economic Sentiment,https://www.forexfactory.com/calendar?month=this#detail=142816,,,,Tue,16/09/2025
+12:30,CAD,red,CPI m/m,https://www.forexfactory.com/calendar?month=this#detail=145128,,,,Tue,16/09/2025
+12:30,CAD,red,Median CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=145166,,,,Tue,16/09/2025
+12:30,CAD,red,Trimmed CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=145167,,,,Tue,16/09/2025
+12:30,CAD,orange,Common CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=145164,,,,Tue,16/09/2025
+12:30,USD,red,Core Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=142351,,,,Tue,16/09/2025
+12:30,USD,red,Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=142341,,,,Tue,16/09/2025
+06:00,GBP,red,CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=143615,,,,Wed,17/09/2025
+07:30,EUR,orange,ECB President Lagarde Speaks,https://www.forexfactory.com/calendar?month=this#detail=147489,,,,Wed,17/09/2025
+13:45,CAD,red,BOC Rate Statement,https://www.forexfactory.com/calendar?month=this#detail=141403,,,,Wed,17/09/2025
+13:45,CAD,red,Overnight Rate,https://www.forexfactory.com/calendar?month=this#detail=141391,,,,Wed,17/09/2025
+14:30,CAD,red,BOC Press Conference,https://www.forexfactory.com/calendar?month=this#detail=141412,,,,Wed,17/09/2025
+18:00,USD,red,Federal Funds Rate,https://www.forexfactory.com/calendar?month=this#detail=141212,,,,Thu,18/09/2025
+18:00,USD,red,FOMC Economic Projections,https://www.forexfactory.com/calendar?month=this#detail=141233,,,,Thu,18/09/2025
+18:00,USD,red,FOMC Statement,https://www.forexfactory.com/calendar?month=this#detail=141220,,,,Thu,18/09/2025
+18:30,USD,red,FOMC Press Conference,https://www.forexfactory.com/calendar?month=this#detail=141228,,,,Thu,18/09/2025
+11:00,GBP,red,Monetary Policy Summary,https://www.forexfactory.com/calendar?month=this#detail=143361,,,,Thu,18/09/2025
+11:00,GBP,red,MPC Official Bank Rate Votes,https://www.forexfactory.com/calendar?month=this#detail=143362,,,,Thu,18/09/2025
+11:00,GBP,red,Official Bank Rate,https://www.forexfactory.com/calendar?month=this#detail=143360,,,,Thu,18/09/2025
+12:30,USD,red,Unemployment Claims,https://www.forexfactory.com/calendar?month=this#detail=141467,,,,Thu,18/09/2025
+12:30,USD,orange,Philly Fed Manufacturing Index,https://www.forexfactory.com/calendar?month=this#detail=141203,,,,Thu,18/09/2025
+06:00,GBP,orange,Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=143672,,,,Fri,19/09/2025
+12:30,CAD,orange,Core Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=145052,,,,Fri,19/09/2025
+12:30,CAD,orange,Retail Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=145040,,,,Fri,19/09/2025
+07:15,EUR,orange,French Flash Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=142207,,,,Tue,23/09/2025
+07:15,EUR,orange,French Flash Services PMI,https://www.forexfactory.com/calendar?month=this#detail=142208,,,,Tue,23/09/2025
+07:30,EUR,red,German Flash Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=142209,,,,Tue,23/09/2025
+07:30,EUR,red,German Flash Services PMI,https://www.forexfactory.com/calendar?month=this#detail=142210,,,,Tue,23/09/2025
+08:00,EUR,orange,Flash Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=142205,,,,Tue,23/09/2025
+08:00,EUR,orange,Flash Services PMI,https://www.forexfactory.com/calendar?month=this#detail=142206,,,,Tue,23/09/2025
+08:30,GBP,red,Flash Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=142212,,,,Tue,23/09/2025
+08:30,GBP,red,Flash Services PMI,https://www.forexfactory.com/calendar?month=this#detail=142211,,,,Tue,23/09/2025
+13:45,USD,red,Flash Manufacturing PMI,https://www.forexfactory.com/calendar?month=this#detail=143935,,,,Tue,23/09/2025
+13:45,USD,red,Flash Services PMI,https://www.forexfactory.com/calendar?month=this#detail=143947,,,,Tue,23/09/2025
+14:00,USD,orange,Existing Home Sales,https://www.forexfactory.com/calendar?month=this#detail=143016,,,,Tue,23/09/2025
+14:00,USD,orange,Richmond Manufacturing Index,https://www.forexfactory.com/calendar?month=this#detail=141191,,,,Tue,23/09/2025
+08:00,EUR,orange,German ifo Business Climate,https://www.forexfactory.com/calendar?month=this#detail=142258,,,,Wed,24/09/2025
+14:00,USD,orange,New Home Sales,https://www.forexfactory.com/calendar?month=this#detail=141130,,,,Wed,24/09/2025
+12:30,USD,red,Final GDP q/q,https://www.forexfactory.com/calendar?month=this#detail=142551,,,,Thu,25/09/2025
+12:30,USD,red,Unemployment Claims,https://www.forexfactory.com/calendar?month=this#detail=141468,,,,Thu,25/09/2025
+12:30,USD,orange,Core Durable Goods Orders m/m,https://www.forexfactory.com/calendar?month=this#detail=142389,,,,Thu,25/09/2025
+12:30,USD,orange,Durable Goods Orders m/m,https://www.forexfactory.com/calendar?month=this#detail=142377,,,,Thu,25/09/2025
+12:30,USD,orange,Final GDP Price Index q/q,https://www.forexfactory.com/calendar?month=this#detail=142555,,,,Thu,25/09/2025
+12:30,CAD,red,GDP m/m,https://www.forexfactory.com/calendar?month=this#detail=144964,,,,Fri,26/09/2025
+12:30,USD,red,Core PCE Price Index m/m,https://www.forexfactory.com/calendar?month=this#detail=142513,,,,Fri,26/09/2025
+14:00,USD,orange,Revised UoM Consumer Sentiment,https://www.forexfactory.com/calendar?month=this#detail=141294,,,,Fri,26/09/2025
+07:00,EUR,orange,Spanish Flash CPI y/y,https://www.forexfactory.com/calendar?month=this#detail=140877,,,,Mon,29/09/2025
+14:00,USD,orange,Pending Home Sales m/m,https://www.forexfactory.com/calendar?month=this#detail=143028,,,,Mon,29/09/2025
+06:29,EUR,orange,German Prelim CPI m/m,https://www.forexfactory.com/calendar?month=this#detail=142891,,,,Tue,30/09/2025
+All Day,CAD,gray,Bank Holiday,https://www.forexfactory.com/calendar?month=this#detail=140517,,,,Tue,30/09/2025
+14:00,USD,red,JOLTS Job Openings,https://www.forexfactory.com/calendar?month=this#detail=143900,,,,Tue,30/09/2025
+14:00,USD,orange,CB Consumer Confidence,https://www.forexfactory.com/calendar?month=this#detail=141251,,,,Tue,30/09/2025

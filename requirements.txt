@@ -3,3 +3,4 @@ selenium==4.13.0
 webdriver_manager==4.0.2
 datetime
 pytz
+customtkinter
