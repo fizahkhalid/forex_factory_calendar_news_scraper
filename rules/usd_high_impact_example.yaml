@@ -1,0 +1,15 @@
+name: usd-med-impact-example
+enabled: true
+match:
+  currencies:
+    - USD
+  impacts:
+    - orange
+  event_names: []
+  event_keywords:
+    - President
+  weekdays: []
+trigger:
+  minutes_before: 10
+deliver:
+  - webhook_main

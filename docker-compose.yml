@@ -1,0 +1,36 @@
+services:
+  scraper:
+    build:
+      context: .
+    image: forex-factory-toolkit
+    container_name: forex-factory-scraper
+    restart: unless-stopped
+    user: "${DOCKER_UID:-1000}:${DOCKER_GID:-1000}"
+    environment:
+      FF_RUN_MODE: schedule
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./.env:/app/.env
+      - ./news:/app/news
+      - ./rules:/app/rules
+      - ./state:/app/state
+
+  alerts:
+    build:
+      context: .
+    image: forex-factory-toolkit
+    container_name: forex-factory-alerts
+    restart: unless-stopped
+    user: "${DOCKER_UID:-1000}:${DOCKER_GID:-1000}"
+    environment:
+      FF_RUN_MODE: alerts-schedule
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./config.yaml:/app/config.yaml
+      - ./.env:/app/.env
+      - ./news:/app/news
+      - ./rules:/app/rules
+      - ./state:/app/state
