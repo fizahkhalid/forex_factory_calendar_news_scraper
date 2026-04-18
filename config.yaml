@@ -1,0 +1,45 @@
+months:
+  - this
+output_format: both
+output_dir: news
+timezone: Asia/Karachi
+allowed_currencies:
+  - CAD
+  - EUR
+  - GBP
+  - USD
+allowed_impacts:
+  - red
+  - orange
+  - gray
+headless: true
+schedule_preset: weekly
+viewer_host: 127.0.0.1
+viewer_port: 8501
+
+alerts:
+  rules_dir: rules
+  state_dir: state/alerts
+  check_interval_minutes: 1
+  schedule_preset: every_1_minutes
+  retry_attempts: 3
+  retry_backoff_seconds: 1
+  message_prefix: "Forex Factory Alert"
+  connectors:
+    - id: discord_main
+      type: discord
+      enabled: false
+      webhook_url_env: DISCORD_WEBHOOK_URL
+
+    - id: telegram_main
+      type: telegram
+      enabled: false
+      bot_token_env: TELEGRAM_BOT_TOKEN
+      chat_id_env: TELEGRAM_CHAT_ID
+
+    - id: webhook_main
+      type: webhook
+      enabled: true
+      url_env: ALERT_WEBHOOK_URL
+      auth_header_name: Authorization
+      auth_header_env: ALERT_WEBHOOK_AUTH
