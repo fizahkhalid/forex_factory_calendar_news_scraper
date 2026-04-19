@@ -198,7 +198,19 @@ Enable connectors in `config.yaml` under `alerts.connectors`, then add secrets t
 
 **Discord**
 
-Discord uses an incoming webhook URL — no bot required. To create one: open the Discord channel → Edit Channel → Integrations → Webhooks → New Webhook → Copy Webhook URL.
+A webhook is a special URL that lets this script post messages directly to a channel. No bot account or coding required.
+
+How to create one:
+
+1. Open Discord and go to the channel where you want alerts (e.g. `#forex-alerts`)
+2. Click the gear icon next to the channel name to open **Edit Channel**
+3. In the left menu click **Integrations**
+4. Click **Create Webhook** (or **New Webhook** if one already exists)
+5. Give it a name like `Forex Factory Alerts` and optionally upload an avatar
+6. Click **Copy Webhook URL** — this is the URL you need
+7. Paste it into your `.env` as shown below
+
+Keep the webhook URL private — anyone with it can post to your channel.
 
 ```yaml
 - id: discord_main
@@ -209,6 +221,12 @@ Discord uses an incoming webhook URL — no bot required. To create one: open th
 
 ```env
 DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/1234567890/xxxx
+```
+
+Verify it works by running:
+
+```bash
+python -m ff_calendar_toolkit.cli test-notify
 ```
 
 **Telegram**

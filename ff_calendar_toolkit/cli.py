@@ -123,7 +123,7 @@ def main(argv: list[str] | None = None) -> int:
         all_ok = True
         for connector_id in ids:
             try:
-                factory.send_raw(connector_id, "ff-calendar-toolkit: test notification — your setup is working.")
+                factory.send_raw(connector_id, "Forex Factory Alerts: test notification. Your setup is working.")
                 console.step(f"ok  {connector_id}")
             except NotificationError as exc:
                 console.error(f"fail  {connector_id}: {exc}")

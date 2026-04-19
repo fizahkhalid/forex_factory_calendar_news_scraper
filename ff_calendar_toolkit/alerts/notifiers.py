@@ -130,7 +130,10 @@ def _required_env(env_name) -> str:
 
 def _post_json(url: str, payload: dict, headers: dict | None = None) -> None:
     body = json.dumps(payload).encode("utf-8")
-    request_headers = {"Content-Type": "application/json"}
+    request_headers = {
+        "Content-Type": "application/json",
+        "User-Agent": "DiscordBot (https://github.com/fizahkhalid/forex_factory_calendar_news_scraper, 1.0)",
+    }
     if headers:
         request_headers.update(headers)
     _perform_request(url, body, request_headers)
@@ -141,11 +144,23 @@ def _post_form(url: str, payload: bytes) -> None:
 
 
 def _perform_request(url: str, payload: bytes, headers: dict) -> None:
+    # Mask the URL for logging — keep the domain, hide the token
+    parsed = parse.urlparse(url)
+    safe_url = f"{parsed.scheme}://{parsed.netloc}{parsed.path[:30]}…" if len(parsed.path) > 30 else f"{parsed.scheme}://{parsed.netloc}{parsed.path}"
+
     req = request.Request(url, data=payload, headers=headers, method="POST")
     try:
         with request.urlopen(req, timeout=10) as response:
             status = getattr(response, "status", 200)
             if status >= 400:
-                raise NotificationError(f"Request failed with status {status}")
-    except (HTTPError, URLError) as exc:
-        raise NotificationError(str(exc)) from exc
+                raise NotificationError(f"HTTP {status} from {safe_url}")
+    except HTTPError as exc:
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = "<unreadable>"
+        raise NotificationError(
+            f"HTTP {exc.code} {exc.reason} from {safe_url} — response body: {body}"
+        ) from exc
+    except URLError as exc:
+        raise NotificationError(f"Connection error to {safe_url} — {exc.reason}") from exc
