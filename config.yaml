@@ -21,14 +21,14 @@ alerts:
   rules_dir: rules
   state_dir: state/alerts
   check_interval_minutes: 1
-  schedule_preset: every_1_minutes
+  schedule_preset: every_1_minute
   retry_attempts: 3
   retry_backoff_seconds: 1
   message_prefix: "Forex Factory Alert"
   connectors:
     - id: discord_main
       type: discord
-      enabled: false
+      enabled: true
       webhook_url_env: DISCORD_WEBHOOK_URL
 
     - id: telegram_main

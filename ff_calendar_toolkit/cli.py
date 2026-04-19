@@ -63,6 +63,14 @@ def build_parser() -> argparse.ArgumentParser:
     alerts.add_argument("--rules-dir", help="Directory containing alert rule YAML files")
     alerts.add_argument("--state-dir", help="Directory for alert state")
 
+    test_notify = subparsers.add_parser(
+        "test-notify", help="Send a test message to all enabled connectors"
+    )
+    test_notify.add_argument("--config", help="Path to YAML config file")
+    test_notify.add_argument("--output-dir", help="Directory containing generated artifacts")
+    test_notify.add_argument("--rules-dir", help="Directory containing alert rule YAML files")
+    test_notify.add_argument("--state-dir", help="Directory for alert state")
+
     schedule_info = subparsers.add_parser(
         "schedule-info", help="Print the effective cron expression"
     )
@@ -76,7 +84,7 @@ def build_parser() -> argparse.ArgumentParser:
 
 def _prepare_args(argv: list[str] | None) -> list[str]:
     args = list(argv) if argv is not None else sys.argv[1:]
-    if not args or args[0] not in {"scrape", "view", "alerts-check", "schedule-info", "alerts-schedule-info"}:
+    if not args or args[0] not in {"scrape", "view", "alerts-check", "schedule-info", "alerts-schedule-info", "test-notify"}:
         return ["scrape", *args]
     return args
 
@@ -102,6 +110,25 @@ def main(argv: list[str] | None = None) -> int:
         cron_expression, preset = current_alert_schedule(getattr(args, "config", None))
         print(resolve_alert_schedule(preset, cron_expression))
         return 0
+
+    if args.command == "test-notify":
+        options = build_alert_options(args)
+        from .alerts.notifiers import NotificationError, NotifierFactory
+
+        factory = NotifierFactory(options)
+        ids = factory.connector_ids()
+        if not ids:
+            console.step("No connectors are enabled. Enable at least one in config.yaml.")
+            return 0
+        all_ok = True
+        for connector_id in ids:
+            try:
+                factory.send_raw(connector_id, "ff-calendar-toolkit: test notification — your setup is working.")
+                console.step(f"ok  {connector_id}")
+            except NotificationError as exc:
+                console.error(f"fail  {connector_id}: {exc}")
+                all_ok = False
+        return 0 if all_ok else 1
 
     if args.command == "alerts-check":
         options = build_alert_options(args)

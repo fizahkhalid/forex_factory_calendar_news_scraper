@@ -25,6 +25,25 @@ class NotifierFactory:
     def connector_ids(self) -> list[str]:
         return sorted(self.connector_map)
 
+    def send_raw(self, connector_id: str, message: str) -> None:
+        connector = self.connector_map.get(connector_id)
+        if connector is None:
+            raise NotificationError(f"Connector '{connector_id}' is not configured or enabled")
+        if connector.connector_type == "discord":
+            self._send_discord(connector, message)
+        elif connector.connector_type == "telegram":
+            self._send_telegram(connector, message)
+        elif connector.connector_type == "webhook":
+            url = _required_env(connector.settings.get("url_env"))
+            headers = {}
+            header_name = connector.settings.get("auth_header_name")
+            header_env = connector.settings.get("auth_header_env")
+            if header_name and header_env:
+                headers[str(header_name)] = _required_env(header_env)
+            _post_json(url, {"message": message}, headers=headers)
+        else:
+            raise NotificationError(f"Unsupported connector type '{connector.connector_type}'")
+
     def send(self, connector_id: str, rule: AlertRule, event: AlertEvent) -> None:
         connector = self.connector_map.get(connector_id)
         if connector is None:

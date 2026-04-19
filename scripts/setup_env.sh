@@ -123,9 +123,9 @@ main() {
   esac
 
   printf '\nNext steps:\n'
-  printf '  ./scripts/run_scraper.sh --months this --format both\n'
-  printf '  ./scripts/run_alerts.sh\n'
-  printf '  ./scripts/view_data.sh --output-dir news\n'
+  printf '  ./scripts/run.sh scrape --months this --format both\n'
+  printf '  ./scripts/run.sh alerts-check\n'
+  printf '  ./scripts/run.sh view\n'
 }
 
 main "$@"
